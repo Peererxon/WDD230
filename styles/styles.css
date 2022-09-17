@@ -3,6 +3,11 @@ header {
   grid-template-columns: 200px 1fr;
 }
 
+body {
+  max-width: 1400px;
+  margin: 8px auto;
+}
+
 .box-blue {
   background-color: #3377aa;
   border-radius: 10px;
