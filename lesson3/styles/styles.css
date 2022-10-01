@@ -87,6 +87,10 @@ td.secundary {
   margin: auto;
 }
 
+.logo {
+  height: 150px;
+}
+
 .img img {
   max-width: 480px;
 }
