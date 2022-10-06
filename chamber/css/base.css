@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;600&display=swap");
+
+* {
+  font-family: "Nunito Sans", sans-serif;
+}
+:root {
+  --titleSize: 24px;
+  --textSize: 16px;
+  --primary: #8ecae6;
+  --secundary: #ffb703;
+}
+
+header {
+  display: grid;
+  grid-template-columns: 80% 1fr;
+  background-color: var(--primary);
+}
+
+.hamburger div {
+  height: 5px;
+  width: 100%;
+  background-color: black;
+  margin-top: 5px;
+}
+
+.hamburger {
+  width: 40px;
+  align-self: center;
+}
+
+ul.closed .link {
+  display: none;
+}
+
+.link {
+  font-weight: bold;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.logo {
+  width: 150px;
+  margin-left: 20px;
+}
+
+.selectionMenu {
+  align-self: center;
+  margin-left: auto;
+  grid-column: 1/3;
+  text-align: center;
+  width: 100%;
+}
+
+.selectionMenu li {
+  list-style: none;
+  padding: 0px 0px 10px 0px;
+}
+
+.selectionMenu ul {
+  padding: 0;
+}
+
+.socials {
+  grid-column: 1/3;
+}
+
+.socials ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  justify-content: center;
+}
+.socials ul li {
+  margin-left: 12px;
+}
+
+.socials__img {
+  width: 30px;
+}
+
+#date {
+  grid-column: 1/3;
+  text-align: center;
+}
+
+.home {
+  margin: 0px 10px;
+}
+
+.home section {
+  margin: 10px 0;
+}
+
+section {
+  height: 200px;
+  background-color: lightgray;
+  outline: 1px solid black;
+}
+
+footer {
+  background-color: var(--primary);
+  text-align: center;
+  color: black;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+footer img {
+  width: 150px;
+}
+
+#copyright {
+  /* line-height: .5em; */
+  font-size: 0.7em;
+}
+
+footer a {
+  color: black;
+}

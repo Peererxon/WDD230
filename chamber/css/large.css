@@ -1,0 +1,13 @@
+@media screen and (min-width: 1200px) {
+  .home {
+    margin: 0px 10px;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+
+    grid-column-gap: 20px;
+  }
+
+  section {
+    height: 400px;
+  }
+}
