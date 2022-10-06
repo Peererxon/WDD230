@@ -3,11 +3,44 @@
     margin: 0px 10px;
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
-
+    grid-template-rows: repeat(3, 420px);
     grid-column-gap: 20px;
+  }
+
+  #event {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  #news {
+    grid-row: 3;
+    margin-top: -150px;
+    height: 450px;
+  }
+  #join {
+    grid-column: 1;
+    grid-row: 3;
+  }
+
+  #hero {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    height: 600px;
+  }
+
+  #associates {
+    grid-column: 3;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    height: auto;
   }
 
   section {
     height: 400px;
+  }
+
+  footer div:nth-child(1) {
+    display: flex;
+    justify-content: space-around;
   }
 }
