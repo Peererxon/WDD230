@@ -88,11 +88,34 @@ td.secundary {
 }
 
 .logo {
-  height: 150px;
+  width: 150px;
 }
 
 .img img {
   max-width: 480px;
+}
+
+footer {
+  background-color: var(--primary);
+  text-align: center;
+  color: black;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+footer img {
+  width: 150px;
+  height: min-content;
+}
+
+#copyright {
+  /* line-height: .5em; */
+  font-size: 0.7em;
+}
+
+footer a {
+  color: black;
 }
 
 @media screen and (max-width: 500px) {
