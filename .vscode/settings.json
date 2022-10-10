@@ -1,0 +1,8 @@
+{
+  "editor.autoIndent": "keep",
+  "editor.formatOnSave": true,
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "editor.formatOnPaste": false
+}
