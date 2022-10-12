@@ -1,10 +1,12 @@
 const submitButton = document.getElementById("submitCharadter");
 let charapters = [];
+const inputElement = document.getElementById("favchap");
 submitButton.addEventListener("click", () => {
-  const inputElement = document.getElementById("favchap");
   if (inputElement.value.trim().length > 0) {
     charapters.unshift(inputElement.value);
     addELement(inputElement.value);
+    inputElement.focus();
+    inputElement.value = "";
   } else {
     showWarning();
     submitButton.setAttribute("disabled", true);
