@@ -56,4 +56,6 @@ function removeElement(e) {
   } catch {
     list.removeChild(e.target.parentElement);
   }
+  inputElement.value = "";
+  inputElement.focus();
 }
