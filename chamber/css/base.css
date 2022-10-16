@@ -16,6 +16,10 @@ header {
   background-color: var(--primary);
 }
 
+main {
+  overflow: hidden;
+}
+
 .hamburger div {
   height: 5px;
   width: 100%;
@@ -78,23 +82,104 @@ ul.closed .link {
   width: 30px;
 }
 
-#date {
+span[id] {
   grid-column: 1/3;
   text-align: center;
 }
 
-.home {
-  margin: 0px 10px;
+#weather__content {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+#weather__content h2 {
+  text-align: center;
+  font-size: 3em;
+}
+
+#join button {
+  background-color: var(--secundary);
+  color: black;
+  margin: auto;
+  cursor: pointer;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  position: relative;
+  /* bottom: 300px; */
+  z-index: 5;
+  width: 200px;
+  height: 50px;
+  font-size: 1.5em;
+  font-weight: 700;
+}
+#join a {
+  margin: auto;
+  display: block;
+  text-align: center;
+}
+
+#hero img {
+  object-fit: cover;
+  width: 100%;
+}
+
+#spot1,
+#spot2,
+#spot3 {
+  display: inline-block;
+  overflow: hidden;
+  height: 400px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.spotTitle {
+  background-color: #14213d;
+  color: #e5e5e5;
+
+  font-size: 2em;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  font-weight: bold;
+}
+
+.spotTitle:hover {
+  color: var(--secundary);
+}
+
+#spot1 {
+  background-image: url(../images/spot1.jpeg);
+}
+
+#spot2 {
+  background-image: url(../images/spot2.jpg);
+}
+
+#spot3 {
+  background-image: url(../images/spot3.jpeg);
 }
 
 .home section {
   margin: 10px 0;
 }
 
+#news {
+  overflow-y: scroll;
+}
+
 section {
-  height: 200px;
+  text-align: center;
+  height: auto;
+  padding: 10px 0;
   background-color: lightgray;
   outline: 1px solid black;
+  overflow: hidden;
 }
 
 footer {

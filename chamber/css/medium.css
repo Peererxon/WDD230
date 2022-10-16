@@ -39,8 +39,20 @@
     filter: invert(0);
   }
 
-  #date {
+  span[id] {
     grid-column: span 4;
+  }
+
+  #weather__content {
+    background-color: #e5e5e5;
+    margin: 10px;
+    text-align: center;
+    height: 280px;
+  }
+
+  #associates {
+    display: flex;
+    gap: 15px;
   }
 
   .listMenu {

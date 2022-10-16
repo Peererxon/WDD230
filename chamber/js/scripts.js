@@ -4,13 +4,16 @@ menu.addEventListener("click", (e) => {
   const containerMenu = document.querySelector(".selectionMenu ul");
   containerMenu.classList.toggle("closed");
 });
-const day = new Date().getDay();
 let now = new Date();
+const day = now.getDay();
 const dateToShow = new Intl.DateTimeFormat("en-US", {
   dateStyle: "full",
 }).format(now);
 document.getElementById("date").textContent = dateToShow;
-
+if (day === 1 || day === 2) {
+  document.getElementById("bannerMessage").textContent =
+    "🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.";
+}
 function body() {
   const firstRow = document.getElementById("year");
   const dateAndName = prepareDate();

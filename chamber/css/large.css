@@ -16,6 +16,8 @@
     grid-row: 3;
     margin-top: -150px;
     height: 450px;
+    text-align: left;
+    line-height: 1.5em;
   }
   #join {
     grid-column: 1;
@@ -33,11 +35,14 @@
     grid-row-start: 1;
     grid-row-end: 4;
     height: auto;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: auto;
   }
 
-  section {
+  /*   section {
     height: 400px;
-  }
+  } */
 
   footer div:nth-child(1) {
     display: flex;
