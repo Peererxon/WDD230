@@ -97,7 +97,7 @@ span[id] {
   font-size: 3em;
 }
 
-#join button {
+#join a {
   background-color: var(--secundary);
   color: black;
   margin: auto;
@@ -105,7 +105,7 @@ span[id] {
   padding: 10px;
   border: none;
   border-radius: 10px;
-  position: relative;
+  /* position: relative; */
   /* bottom: 300px; */
   z-index: 5;
   width: 200px;
@@ -115,8 +115,11 @@ span[id] {
 }
 #join a {
   margin: auto;
-  display: block;
+  display: flex;
   text-align: center;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
 }
 
 #hero img {

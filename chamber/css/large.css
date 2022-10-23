@@ -5,6 +5,8 @@
     grid-template-columns: 1fr 2fr 1fr;
     grid-template-rows: repeat(3, 420px);
     grid-column-gap: 20px;
+    max-width: 90%;
+    margin: 0 auto;
   }
 
   #event {
