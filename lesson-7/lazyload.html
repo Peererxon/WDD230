@@ -11,51 +11,14 @@
 
 <body>
   <h1>Images</h1>
-  <img src="./images/placeholder.png" data-src="https://picsum.photos/300/400" alt="placeholder">
-  <img src="./images/placeholder.png" data-src="https://picsum.photos/300/400" alt="placeholder">
-  <img src="./images/placeholder.png" data-src="https://picsum.photos/300/400" alt="placeholder">
-  <img src="./images/placeholder.png" data-src="https://picsum.photos/300/400" alt="placeholder">
-  <img src="./images/placeholder.png" data-src="https://picsum.photos/300/400" alt="placeholder">
-  <img src="./images/placeholder.png" data-src="https://picsum.photos/300/400" alt="placeholder">
+  <img src="./images/placeholder.png" data-src="./images/forest.jpg" loading="lazy" alt="placeholder">
+  <img src="./images/placeholder.png" data-src="./images/forest2.jpg" loading="lazy" alt="placeholder">
+  <img src="./images/placeholder.png" data-src="./images/guitarist.jpg" loading="lazy" alt="placeholder">
+  <img src="./images/placeholder.png" data-src="./images/photographer.jpg" loading="lazy" alt="placeholder">
+  <img src="./images/placeholder.png" data-src="./images/sky.jpg" loading="lazy" alt="placeholder">
+  <img src="./images/placeholder.png" data-src="./images/sea-port.jpg" loading="lazy" alt="placeholder">
 
-  <script>
-    if ("IntersectionObserver" in window) {
-
-      const images = document.querySelectorAll('[data-src]')
-
-      const preloadImage = (img) => {
-        const dataSrc = img.getAttribute('data-src')
-        console.log("🚀 ~ file: lazyload.html ~ line 28 ~ preloadImage ~ dataSrc", dataSrc)
-
-        if (!dataSrc) {
-          return
-        }
-
-        img.src = dataSrc
-      }
-
-      const imgOptions = {}
-
-      const imgObserver = new IntersectionObserver((entries, imgObserver) => {
-
-        entries.forEach(({ target, isIntersecting }) => {
-          if (!isIntersecting) {
-            console.log('no');
-            return;
-          }
-          console.log('si');
-          preloadImage(target)
-
-          imgObserver.unobserve(target)
-        })
-      }, imgOptions)
-
-      images.forEach(image => {
-        imgObserver.observe(image)
-      })
-    }
-
-  </script>
+  <script src="./scripts/lazyLoad.js"></script>
 </body>
 
 </html>
