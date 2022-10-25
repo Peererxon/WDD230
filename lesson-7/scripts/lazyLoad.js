@@ -15,7 +15,7 @@ if ("IntersectionObserver" in window) {
 
   const imageOptions = {
     threshold: 0,
-    rootMargin: "0px 0px 0px 0px",
+    rootMargin: "-10px 0px 0px 0px",
   };
 
   const imgObserver = new IntersectionObserver((entries, imgObserver) => {
