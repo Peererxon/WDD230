@@ -2,3 +2,12 @@ img {
   display: block;
   margin-bottom: 10px;
 }
+
+img[data-src] {
+  filter: blur(0.3em);
+}
+
+img {
+  filter: opacity(0em);
+  transition: filter 2s;
+}

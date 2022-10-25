@@ -9,6 +9,8 @@ if ("IntersectionObserver" in window) {
     }
 
     img.src = dataSrc;
+
+    img.removeAttribute("data-src");
   };
 
   const imageOptions = {
