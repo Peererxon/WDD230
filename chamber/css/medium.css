@@ -24,7 +24,7 @@
     font-size: 20px;
   }
 
-  ul.closed .link:hover {
+  ul.closed .link a:hover {
     transition: color 300ms ease-out;
     color: var(--secundary);
   }
