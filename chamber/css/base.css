@@ -211,3 +211,43 @@ footer a {
 a {
   color: black;
 }
+
+discover-container {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+#discover-gallery-image-1,
+#discover-gallery-image-2,
+#discover-gallery-image-3 {
+  overflow: hidden;
+  height: 400px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.discover-gallery-title {
+  background-color: #14213d;
+  color: #e5e5e5;
+  font-size: 2em;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  font-weight: bold;
+}
+
+#discover-gallery-image-1 {
+  background-image: url(../images/flor.jpg);
+}
+
+#discover-gallery-image-2 {
+  background-image: url(../images/obelisco-barquisimeto.jpg);
+}
+
+#discover-gallery-image-3 {
+  background-image: url(../images/juares-theater.jpg);
+}

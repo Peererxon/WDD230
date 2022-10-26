@@ -5,15 +5,128 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/base.css">
-  <link rel="stylesheet" href="css/medium.css">
-  <link rel="stylesheet" href="css/large.css">
-  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="../css/base.css">
+  <link rel="stylesheet" href="../css/medium.css">
+  <link rel="stylesheet" href="../css/large.css">
+  <link rel="stylesheet" href="../css/normalize.css">
   <title>Venezuelan Technological Chamber of Commerce | Discover</title>
 </head>
 
 <body>
-  <span>discover</span>
+  <header>
+    <img class="logo" src="../images/logo.webp" alt="">
+    <div class="hamburger" id="menu">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+    <div class="socials">
+      <ul>
+        <li>
+          <a href=""><img class="socials__img" src="../images/facebook.webp" alt=""></a>
+        </li>
+        <li>
+          <a href=""><img class="socials__img" src="../images/instagram.webp" alt=""></a>
+        </li>
+        <li>
+          <a href=""><img class="socials__img" src="../images/linkedin.webp" alt=""></a>
+        </li>
+      </ul>
+    </div>
+    <nav class="selectionMenu">
+      <ul class="closed listMenu">
+        <li class="link"><a href="./pages/discover.html" class="test">Discover</a></li>
+        <li class="link"><a href="">Directory</a></li>
+        <li class="link"><a href="">Join</a></li>
+        <li class="link"><a href="">Contact</a></li>
+      </ul>
+    </nav>
+    <span id="date"></span>
+    <span id="bannerMessage"> </span>
+  </header>
+
+  <div class="discover-container">
+    <main>
+
+      <h1>Discover Barquisimeto</h1>
+
+      <div>
+        <h2>Geography</h2>
+        <p>
+          Barquisimeto is located on the terrace of the same name, on the banks of the ”Río Turbio”. Barquisimeto is
+          located in the center-west of Venezuela (353 kilometers (219 mi) from Caracas, the capital of the country),
+          which can be traveled in 4 to 5 hours by car.
+        </p>
+      </div>
+      <div>
+        <h2>Demographics</h2>
+        <p>
+          Barquisimeto has an estimated population of 1.972.233 inhabitants and a territory of 81.700 square kilometers,
+          which represents 8,9% of the national surface and 16,5% of the population.
+        </p>
+      </div>
+      <div>
+        <h2>Weather</h2>
+        <p>
+          In Barquisimeto, the warm climate is dominant although it is attenuated due to its altitude at about 650
+          meters (0,40 mi) above sea level, which makes its climate pleasant to what it should normally be. In
+          Barquisimeto, summers are short, very hot, muggy, dry and cloudy and winters are short, hot, oppressive, wet
+          and mostly cloudy. During the course of the year, the temperature generally varies from 20 °C (68 ºF) to 31 °C
+          (87,8 ºF) and rarely drops below 19 °C (66,2 ºF) or rises above 34 °C (93,2 ºF).
+        </p>
+      </div>
+      <div>
+        <h2>Tourism</h2>
+        <p>
+          On the occasion of its quadricentennial in 1952, the highest obelisk in Venezuela was erected in Barquisimeto,
+          from where you can contemplate its famous sunsets, which have made it called the "City of twilight". Apart
+          from Barquisimeto, which has cultural and musical activities, museums, temples and theaters, it is worth
+          visiting the historic and colonial area of Carora, the relics of El Tocuyo. Quibor with its museums and famous
+          handicrafts and archeology; Sanare, a beautiful town nestled in the Andes, where you can also buy beautiful
+          handicrafts. We can not fail to recommend a visit to Humocaro, Alto and Bajo, the latter with a beautiful
+          Bolivar Square, at the foot of a high mountain and surrounded by beautiful chaguaramos.
+        </p>
+      </div>
+
+    </main>
+
+    <aside class="discover-aside">
+      <section>
+        <div id="discover-gallery-image-1">
+          <h3 class="discover-gallery-title">"La Flor de Venezuela" monument</h3>
+        </div>
+        <div id="discover-gallery-image-2">
+          <h3 class="discover-gallery-title">Obelisk of Barquisimeto</h3>
+        </div>
+        <div id="discover-gallery-image-3">
+          <h3 class="discover-gallery-title">Juares theater</h3>
+        </div>
+      </section>
+    </aside>
+  </div>
+
+  <footer>
+    <div>
+      <img src="../images/logo.webp" alt="Logo of Venezuelan Technological Chamber of Commerce">
+
+      <div class="address">
+        <h2>Direction</h2>
+        <a href="https://goo.gl/maps/TS6BZDqM6iBuDvFv8" target="_blank">Avenue Algimiro Bracamontes beeteewn 31 and 32
+          street</a>
+      </div>
+
+      <div class="contact">
+        <h3>Contact Us</h3>
+        <a href="mailto:techchamber.net">techchamber.net</a>
+      </div>
+    </div>
+    <div>
+      <h3>Copyright</h3>
+      <p id="year"></p>
+      <p id="last_updated"></p>
+    </div>
+  </footer>
+  <script src="../js/scripts.js"></script>
 </body>
 
 </html>
