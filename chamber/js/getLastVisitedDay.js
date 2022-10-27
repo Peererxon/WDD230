@@ -1,7 +1,7 @@
 const getLastVisitedDay = () =>
   localStorage.getItem("lastDayVisitedDiscoverPage");
 
-const setLastDayVisited = () => {
+const setLastVisitedDay = () => {
   const currentDate = new Date();
 
   localStorage.setItem("lastDayVisitedDiscoverPage", currentDate);
@@ -27,11 +27,13 @@ const printLastVisitedDay = () => {
 
   if (!lastDayVisitedDiscoverPage) {
     bannerMessage.textContent = "0 days from your last visit";
-    setLastDayVisited();
+    setLastVisitedDay();
     return;
   }
 
   const differenceInDays = getDifferenceInDays(lastDayVisitedDiscoverPage);
+
+  setLastVisitedDay();
 
   bannerMessage.textContent = `${differenceInDays} days from your last visit`;
 };
