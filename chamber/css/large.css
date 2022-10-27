@@ -50,4 +50,18 @@
     display: flex;
     justify-content: space-around;
   }
+
+  .discover-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: repeat(3, auto);
+    grid-column-gap: 20px;
+    max-width: 90%;
+    margin: 10px auto;
+  }
+
+  section.discover-aside-section {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
 }

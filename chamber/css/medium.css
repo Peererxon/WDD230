@@ -17,6 +17,8 @@
   .selectionMenu {
     grid-column: 2;
     grid-row: 1;
+    margin-left: 10px;
+    margin-right: 10px;
   }
 
   ul.closed .link {
@@ -57,7 +59,7 @@
 
   .listMenu {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
   }
 
   .hamburger {
@@ -89,5 +91,12 @@
   footer div:nth-child(1) {
     display: flex;
     justify-content: space-around;
+  }
+
+  section.discover-aside-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 15px;
   }
 }
