@@ -241,14 +241,21 @@ a {
   font-weight: bold;
 }
 
-#discover-gallery-image-1 {
-  background-image: url(../images/flor.jpg);
-}
-
-#discover-gallery-image-2 {
-  background-image: url(../images/obelisco-barquisimeto.jpg);
-}
-
+#discover-gallery-image-1,
+#discover-gallery-image-2,
 #discover-gallery-image-3 {
-  background-image: url(../images/juares-theater.jpg);
+  background-image: url(../images/placeholder.png);
+}
+
+.fade-in-image {
+  animation: fadeIn 5s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
