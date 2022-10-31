@@ -16,8 +16,8 @@ caption {
 
 tr:first-child th,
 .highlight {
-  background-color: #e76f51;
-  color: hsla(0, 0%, 100%, 1);
+  background-color: #007bff;
+  color: white;
 }
 
 th,
@@ -27,7 +27,7 @@ td {
 }
 
 th {
-  background-color: #f4a261;
+  background-color: #007bff;
   color: white;
 }
 
