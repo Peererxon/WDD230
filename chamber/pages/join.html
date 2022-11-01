@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Discover page of Venezuelan Technological Chamber of Commerce">
+  <link rel="stylesheet" href="../css/base.css">
+  <link rel="stylesheet" href="../css/medium.css">
+  <link rel="stylesheet" href="../css/large.css">
+  <link rel="stylesheet" href="../css/normalize.css">
+  <title>Venezuelan Technological Chamber of Commerce | Join</title>
+</head>
+
+<body>
+  <header>
+    <img class="logo" src="../images/logo.webp" alt="Venezuelan Chamber">
+    <div class="hamburger" id="menu">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+    <div class="socials">
+      <ul>
+        <li>
+          <a href="#"><img class="socials__img" src="../images/facebook.webp" alt="facebook"></a>
+        </li>
+        <li>
+          <a href="#"><img class="socials__img" src="../images/instagram.webp" alt="instagram"></a>
+        </li>
+        <li>
+          <a href="#"><img class="socials__img" src="../images/linkedin.webp" alt="linkedin"></a>
+        </li>
+      </ul>
+    </div>
+    <nav class="selectionMenu">
+      <ul class="closed listMenu">
+        <li class="link"><a href="./pages/discover.html" class="test">Discover</a></li>
+        <li class="link"><a href="">Directory</a></li>
+        <li class="link"><a href="">Join</a></li>
+        <li class="link"><a href="">Contact</a></li>
+      </ul>
+    </nav>
+    <span id="date"></span>
+    <span id="bannerMessage"> </span>
+  </header>
+
+  <div class="discover-container">
+    <form action="./thankyou.html" method="get">
+      <div>
+        <label for="firstName">First name *</label>
+        <input type="text" name="firstName" id="firstName" required>
+      </div>
+
+      <div>
+        <label for="lastName">Last name *</label>
+        <input type="text" name="lastName" id="lastName" required>
+      </div>
+
+      <div>
+        <label for="lastName">Business position</label>
+        <input type="text" name="lastName" id="lastName" title="your business position, example: CEO">
+      </div>
+
+      <div>
+        <label for="email">Email *</label>
+        <input type="email" name="email" id="email" placeholder="chamber@bussiness.com" required>
+      </div>
+
+      <div>
+        <label for="cellPhoneNumber">Cell phone number *</label>
+        <input type="tel" name="cellPhoneNumber" id="cellPhoneNumber" required>
+      </div>
+
+      <div>
+        <label for="businessName">Business name *</label>
+        <input type="text" name="businessName" id="businessName" required>
+      </div>
+
+      <div>
+        <label for="businessDescription">Business description</label>
+        <textarea name="businessDescription" id="businessDescription" cols="35" rows="10"></textarea>
+      </div>
+
+      <div>
+        <input type="hidden" name="submitDate">
+      </div>
+
+      <div>
+        <button type="submit">Join</button>
+      </div>
+
+    </form>
+  </div>
+
+  <footer>
+    <div>
+      <img src="../images/logo.webp" alt="Logo of Venezuelan Technological Chamber of Commerce">
+
+      <div class="address">
+        <h2>Direction</h2>
+        <a href="https://goo.gl/maps/TS6BZDqM6iBuDvFv8" target="_blank">Avenue Algimiro Bracamontes beeteewn 31 and 32
+          street</a>
+      </div>
+
+      <div class="contact">
+        <h3>Contact Us</h3>
+        <a href="mailto:techchamber.net">techchamber.net</a>
+      </div>
+    </div>
+    <div>
+      <h3>Copyright</h3>
+      <p id="year"></p>
+      <p id="last_updated"></p>
+    </div>
+  </footer>
+  <script src="../js/scripts.js"></script>
+  <script src="../js/getLastVisitedDay.js"></script>
+  <script src="../js/lazyLoad.js"></script>
+</body>
+
+</html>
