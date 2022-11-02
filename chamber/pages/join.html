@@ -46,48 +46,64 @@
     <span id="bannerMessage"> </span>
   </header>
 
-  <div class="discover-container">
+  <div class="join-form-container">
     <form action="./thankyou.html" method="get">
-      <div>
+      <div class="form-group">
         <label for="firstName">First name *</label>
         <input type="text" name="firstName" id="firstName" required>
       </div>
 
-      <div>
+      <div class="form-group">
         <label for="lastName">Last name *</label>
         <input type="text" name="lastName" id="lastName" required>
       </div>
 
-      <div>
+      <div class="form-group">
         <label for="lastName">Business position</label>
         <input type="text" name="lastName" id="lastName" title="your business position, example: CEO">
       </div>
 
-      <div>
+      <div class="form-group">
         <label for="email">Email *</label>
         <input type="email" name="email" id="email" placeholder="chamber@bussiness.com" required>
       </div>
 
-      <div>
+      <div class="form-group">
         <label for="cellPhoneNumber">Cell phone number *</label>
         <input type="tel" name="cellPhoneNumber" id="cellPhoneNumber" required>
       </div>
 
-      <div>
+      <div class="form-group">
         <label for="businessName">Business name *</label>
         <input type="text" name="businessName" id="businessName" required>
       </div>
 
-      <div>
+      <div class="form-group">
+        <label for="businessName">Membership *</label>
+        <input type="radio" name="membership" id="np" required>
+        <input type="radio" name="membership" id="bronze" required>
+        <input type="radio" name="membership" id="silver" required>
+        <input type="radio" name="membership" id="gold" required>
+      </div>
+
+      <div class="form-group">
+        <label for="businessName">Membership *</label>
+        <input type="radio" name="membership" id="np" required>
+        <input type="radio" name="membership" id="bronze" required>
+        <input type="radio" name="membership" id="silver" required>
+        <input type="radio" name="membership" id="gold" required>
+      </div>
+
+      <div class="form-group">
         <label for="businessDescription">Business description</label>
         <textarea name="businessDescription" id="businessDescription" cols="35" rows="10"></textarea>
       </div>
 
-      <div>
+      <div class="form-group">
         <input type="hidden" name="submitDate">
       </div>
 
-      <div>
+      <div class="form-group">
         <button type="submit">Join</button>
       </div>
 
@@ -116,8 +132,6 @@
     </div>
   </footer>
   <script src="../js/scripts.js"></script>
-  <script src="../js/getLastVisitedDay.js"></script>
-  <script src="../js/lazyLoad.js"></script>
 </body>
 
 </html>

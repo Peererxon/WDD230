@@ -265,3 +265,20 @@ a {
 }
 
 /*-------- Join form --------*/
+
+.join-form-container {
+  margin: 15px 15px;
+}
+
+div.form-group {
+  margin-bottom: 25px;
+}
+
+div.form-group label {
+  display: block;
+  margin-bottom: 0;
+}
+
+div.form-group input {
+  height: 44px;
+}
