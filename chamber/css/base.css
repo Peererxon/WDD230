@@ -267,7 +267,19 @@ a {
 /*-------- Join form --------*/
 
 .join-form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   margin: 15px 15px;
+}
+
+.required-star {
+  color: red;
+}
+
+.form-group input,
+textarea {
+  border-radius: 15px;
 }
 
 div.form-group {
@@ -276,9 +288,18 @@ div.form-group {
 
 div.form-group label {
   display: block;
-  margin-bottom: 0;
+  margin-bottom: 5px;
 }
 
 div.form-group input {
   height: 44px;
+  padding-left: 10px;
+}
+
+div.form-group input[type="radio"] {
+  height: initial;
+}
+
+div.form-group label.label-radio {
+  display: inline;
 }

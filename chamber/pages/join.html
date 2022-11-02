@@ -47,14 +47,17 @@
   </header>
 
   <div class="join-form-container">
+
+    <h1>Join form</h1>
+
     <form action="./thankyou.html" method="get">
       <div class="form-group">
-        <label for="firstName">First name *</label>
+        <label for="firstName">First name <span class="required-star">*</span></label>
         <input type="text" name="firstName" id="firstName" required>
       </div>
 
       <div class="form-group">
-        <label for="lastName">Last name *</label>
+        <label for="lastName">Last name <span class="required-star">*</span></label>
         <input type="text" name="lastName" id="lastName" required>
       </div>
 
@@ -64,39 +67,47 @@
       </div>
 
       <div class="form-group">
-        <label for="email">Email *</label>
+        <label for="email">Email <span class="required-star">*</span></label>
         <input type="email" name="email" id="email" placeholder="chamber@bussiness.com" required>
       </div>
 
       <div class="form-group">
-        <label for="cellPhoneNumber">Cell phone number *</label>
+        <label for="cellPhoneNumber">Cell phone number <span class="required-star">*</span></label>
         <input type="tel" name="cellPhoneNumber" id="cellPhoneNumber" required>
       </div>
 
       <div class="form-group">
-        <label for="businessName">Business name *</label>
+        <label for="businessName">Business name <span class="required-star">*</span></label>
         <input type="text" name="businessName" id="businessName" required>
       </div>
 
       <div class="form-group">
-        <label for="businessName">Membership *</label>
-        <input type="radio" name="membership" id="np" required>
-        <input type="radio" name="membership" id="bronze" required>
-        <input type="radio" name="membership" id="silver" required>
-        <input type="radio" name="membership" id="gold" required>
+        <label for="">Membership <span class="required-star">*</span></label>
       </div>
 
       <div class="form-group">
-        <label for="businessName">Membership *</label>
         <input type="radio" name="membership" id="np" required>
+        <label for="np" class="label-radio">Nonprofit</label>
+      </div>
+
+      <div class="form-group">
         <input type="radio" name="membership" id="bronze" required>
+        <label for="bronze" class="label-radio">Bronze</label>
+      </div>
+
+      <div class="form-group">
         <input type="radio" name="membership" id="silver" required>
+        <label for="silver" class="label-radio">Silver</label>
+      </div>
+
+      <div class="form-group">
         <input type="radio" name="membership" id="gold" required>
+        <label for="gold" class="label-radio">Gold</label>
       </div>
 
       <div class="form-group">
         <label for="businessDescription">Business description</label>
-        <textarea name="businessDescription" id="businessDescription" cols="35" rows="10"></textarea>
+        <textarea name="businessDescription" id="businessDescription" cols="35" rows="5"></textarea>
       </div>
 
       <div class="form-group">
