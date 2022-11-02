@@ -8,6 +8,7 @@ img[data-src] {
 }
 
 img {
-  filter: opacity(0em);
+  /* filter: opacity(1); */
+  filter: blur(0);
   transition: filter 2s;
 }
