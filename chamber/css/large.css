@@ -39,7 +39,6 @@
     height: auto;
     flex-direction: column;
     justify-content: space-evenly;
-    height: auto;
   }
 
   /*   section {
@@ -68,6 +67,11 @@
   .join-form-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    align-content: flex-start;
+  }
+
+  .join-form-container h1 {
+    text-align: center;
   }
 
   div.form-container {
@@ -87,5 +91,10 @@
 
   div.form-container textarea {
     width: 100%;
+  }
+
+  div.membership {
+    padding: 0 15px;
+    margin: 8px 0;
   }
 }
