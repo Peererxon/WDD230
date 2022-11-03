@@ -313,6 +313,7 @@ div.membership-levels {
   flex-direction: column;
   align-items: center;
 }
+
 div.membership {
   box-shadow: rgba(11, 43, 158, 0.15) 0px 6px 20px -6px;
   border-radius: 24px;
@@ -322,6 +323,16 @@ div.membership {
   width: 70%;
 }
 
+div.membership h2 {
+  font-weight: bold;
+  font-size: 26px;
+}
+
+p.fee {
+  font-weight: bold;
+  font-size: 18px;
+}
+
 div.membership ul li {
   list-style: none;
 }
@@ -329,4 +340,17 @@ div.membership ul li {
 span.check {
   color: green;
   font-size: 20px;
+}
+
+.form-group button {
+  background-color: var(--primary);
+  border: none;
+  border-radius: 10px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  height: 40px;
+  justify-content: center;
+  line-height: 24px;
+  padding: 0px 20px;
+  width: 100%;
 }
