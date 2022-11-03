@@ -64,4 +64,14 @@
     grid-template-columns: 1fr;
     gap: 10px;
   }
+
+  .join-form-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  div.join-form-container form {
+    grid-column: 1/2;
+    grid-row: 1 / 1;
+  }
 }

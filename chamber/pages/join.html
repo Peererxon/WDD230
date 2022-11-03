@@ -52,7 +52,7 @@
 
       <h1>Membership Levels</h1>
 
-      <div class="nonprofit">
+      <div class="membership nonprofit">
         <h2>Nonprofit</h2>
         <p class="fee">No fee</p>
         <p>
@@ -61,7 +61,7 @@
         </p>
       </div>
 
-      <div class="bronze">
+      <div class="membership bronze">
         <h2>Bronze</h2>
         <p class="fee">$50/month</p>
         <p>
@@ -69,14 +69,16 @@
           include:
         </p>
         <ul>
-          <li>10% discount on events</li>
-          <li>10% discount on advertising</li>
-          <li>Networking, being a member of the chamber facilitates direct contact with other affiliated companies,
+          <li><span class="check">&check;</span> 10% discount on events</li>
+          <li><span class="check">&check;</span> 10% discount on advertising</li>
+          <li><span class="check">&check;</span> Networking, being a member of the chamber facilitates direct contact
+            with other affiliated
+            companies,
             through events, thematic forums and training, among others.</li>
         </ul>
       </div>
 
-      <div class="silver">
+      <div class="membership silver">
         <h2>Silver</h2>
         <p class="fee">$100/month</p>
         <p>
@@ -84,12 +86,12 @@
           all the benefits of the bronze membership and :
         </p>
         <ul>
-          <li>VIP Service in certain processes of the Commercial Register</li>
-          <li>Digital signature management for e-commerce</li>
+          <li><span class="check">&check;</span> VIP Service in certain processes of the Commercial Register</li>
+          <li><span class="check">&check;</span> Digital signature management for e-commerce</li>
         </ul>
       </div>
 
-      <div class="gold">
+      <div class="membership gold">
         <h2>Gold</h2>
         <p class="fee">$140/month</p>
         <p>
@@ -97,10 +99,12 @@
           all the benefits of silver membership and :
         </p>
         <ul>
-          <li>Entries to specialized thematic forums on aspects related to your business activity.</li>
-          <li>Free talks and training courses for your staff</li>
-          <li>Training facilities designed according to your company's needs.</li>
-          <li>Broadcasting of your company's contacts in the annual directory of the Chambers of Commerce of Venezuela;
+          <li><span class="check">&check;</span> Entries to specialized thematic forums on aspects related to your
+            business activity.</li>
+          <li><span class="check">&check;</span> Free talks and training courses for your staff</li>
+          <li><span class="check">&check;</span> Training facilities designed according to your company's needs.</li>
+          <li><span class="check">&check;</span> Broadcasting of your company's contacts in the annual directory of the
+            Chambers of Commerce of Venezuela;
             in addition, on the website.</li>
         </ul>
       </div>
@@ -108,37 +112,39 @@
 
     </div>
 
-    <h1>Join form</h1>
 
     <form action="./thankyou.html" method="get">
+
+      <h1>Join form</h1>
+
       <div class="form-group">
         <label for="firstName">First name <span class="required-star">*</span></label>
-        <input type="text" name="firstName" id="firstName" required>
+        <input type="text" name="firstName" id="firstName" class="w-100" required>
       </div>
 
       <div class="form-group">
         <label for="lastName">Last name <span class="required-star">*</span></label>
-        <input type="text" name="lastName" id="lastName" required>
+        <input type="text" name="lastName" id="lastName" class="w-100" required>
       </div>
 
       <div class="form-group">
         <label for="lastName">Business position</label>
-        <input type="text" name="lastName" id="lastName" title="your business position, example: CEO">
+        <input type="text" name="lastName" id="lastName" class="w-100" title="your business position, example: CEO">
       </div>
 
       <div class="form-group">
         <label for="email">Email <span class="required-star">*</span></label>
-        <input type="email" name="email" id="email" placeholder="chamber@bussiness.com" required>
+        <input type="email" name="email" id="email" class="w-100" placeholder="chamber@bussiness.com" required>
       </div>
 
       <div class="form-group">
         <label for="cellPhoneNumber">Cell phone number <span class="required-star">*</span></label>
-        <input type="tel" name="cellPhoneNumber" id="cellPhoneNumber" required>
+        <input type="tel" name="cellPhoneNumber" class="w-100" id="cellPhoneNumber" required>
       </div>
 
       <div class="form-group">
         <label for="businessName">Business name <span class="required-star">*</span></label>
-        <input type="text" name="businessName" id="businessName" required>
+        <input type="text" name="businessName" class="w-100" id="businessName" required>
       </div>
 
       <div class="form-group">
