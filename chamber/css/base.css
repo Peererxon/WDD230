@@ -345,7 +345,7 @@ span.check {
   font-size: 20px;
 }
 
-.form-group button {
+.join-form-container button[type="submit"] {
   background-color: var(--primary);
   border: none;
   border-radius: 10px;

@@ -70,13 +70,22 @@
     grid-template-columns: 1fr 1fr;
   }
 
-  div.join-form-container form {
+  div.form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     grid-column: 1/2;
     grid-row: 1 / 1;
+    width: 50%;
+    margin: 0 auto;
   }
 
   div.membership:hover {
     box-shadow: rgba(11, 43, 158, 0.15) 0px 10px 20px -2px;
     transform: translateY(-4px);
+  }
+
+  div.form-container textarea {
+    width: 100%;
   }
 }
