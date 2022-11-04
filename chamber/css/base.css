@@ -273,10 +273,6 @@ a {
   margin: 15px 15px;
 }
 
-.required-star {
-  color: red;
-}
-
 .form-group input.w-100 {
   width: 100%;
 }
@@ -310,6 +306,7 @@ div.form-group input {
 
 div.form-group input[type="radio"] {
   height: initial;
+  font-weight: bold;
 }
 
 div.form-group label.label-radio {
@@ -354,7 +351,7 @@ span.check {
   background-color: var(--primary);
   border: none;
   border-radius: 10px;
-  color: rgb(255, 255, 255);
+  color: black;
   cursor: pointer;
   font-weight: bold;
   height: 40px;
