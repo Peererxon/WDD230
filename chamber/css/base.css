@@ -284,9 +284,14 @@ a {
 form label {
   font-weight: 1000;
 }
+
 .form-group input,
 textarea {
   border-radius: 15px;
+}
+
+.form-group textarea {
+  padding: 10px;
 }
 
 div.form-group {
