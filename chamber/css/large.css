@@ -97,4 +97,13 @@
     padding: 0 15px;
     margin: 8px 0;
   }
+
+  .join-form-container button[type="submit"] {
+    width: 50%;
+  }
+
+  div.flex-center {
+    display: flex;
+    justify-content: center;
+  }
 }
