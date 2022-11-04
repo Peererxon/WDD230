@@ -103,4 +103,7 @@
   .saturate:hover {
     filter: saturate(10%);
   }
+  div.card {
+    margin: 80px 0;
+  }
 }
