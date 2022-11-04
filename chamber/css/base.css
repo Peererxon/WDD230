@@ -366,6 +366,9 @@ span.check {
   border-radius: 15px;
 }
 
+div.group-radio {
+  margin-bottom: 25px;
+}
 /*-------- Thank you page --------*/
 .thank-you-container {
   display: flex;
