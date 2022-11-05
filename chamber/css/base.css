@@ -32,8 +32,8 @@ main {
   align-self: center;
 }
 
-ul.closed .link {
-  display: none;
+.closed {
+  display: none !important;
 }
 
 .link {

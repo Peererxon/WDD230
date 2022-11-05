@@ -1,24 +1,9 @@
 @media screen and (min-width: 700px) {
-  header {
-    grid-template-columns: repeat(3, 1fr);
-    padding: 20px 0px;
-  }
   .home {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(4, 1fr);
     column-gap: 20px;
-  }
-
-  .socials {
-    grid-column: 3;
-  }
-
-  .selectionMenu {
-    grid-column: 2;
-    grid-row: 1;
-    margin-left: 10px;
-    margin-right: 10px;
   }
 
   ul.closed .link {
@@ -60,10 +45,6 @@
   .listMenu {
     display: flex;
     justify-content: space-around;
-  }
-
-  .hamburger {
-    display: none;
   }
 
   #hero {

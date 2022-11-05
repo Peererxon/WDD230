@@ -111,4 +111,26 @@
     width: 40%;
     margin: 150px 0;
   }
+
+  .socials {
+    grid-column: 3;
+  }
+
+  .selectionMenu {
+    grid-column: 2;
+    grid-row: 1;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .hamburger {
+    display: none;
+  }
+  header {
+    grid-template-columns: repeat(3, 1fr);
+    padding: 20px 0px;
+  }
+
+  .selectionMenu ul {
+    display: flex !important;
+  }
 }
