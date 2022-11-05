@@ -122,8 +122,13 @@ span[id] {
   text-decoration: none;
 }
 
+#hero {
+  padding: 0;
+}
+
 #hero img {
   object-fit: cover;
+  height: 100%;
   width: 100%;
 }
 
