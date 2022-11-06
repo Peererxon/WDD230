@@ -178,6 +178,10 @@ span[id] {
   margin: 10px 0;
 }
 
+.home div#hero {
+  margin: 10px 0;
+}
+
 #news {
   overflow-y: scroll;
 }
