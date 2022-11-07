@@ -7,7 +7,6 @@ fetch(requestURL)
     return response.json();
   })
   .then(function (jsonObject) {
-    console.table(jsonObject); // temporary checking for valid response and data parsing
     const prophets = jsonObject["prophets"];
     prophets.forEach(displayProphets);
   });
@@ -27,11 +26,15 @@ function displayProphets(prophet) {
 
   placeOfBirthPTag.textContent = `Place of birth: ${prophet.birthplace}`;
 
+  // Build president order
+
+  const presidentOrder = returnPresidentOrder(prophet.order);
+
   // Build the image attributes by using the setAttribute method for the src, alt, and loading attribute values. (Fill in the blank with the appropriate variable).
   portrait.setAttribute("src", prophet.imageurl);
   portrait.setAttribute(
     "alt",
-    "Portait of " + prophet.name + " " + prophet.lastname
+    `Portait of  ${prophet.name} ${prophet.lastname} ${presidentOrder}`
   );
   portrait.setAttribute("loading", "lazy");
 
@@ -43,4 +46,20 @@ function displayProphets(prophet) {
 
   // Add/append the existing HTML div with the cards class with the section(card)
   document.querySelector("div.cards").appendChild(card);
+}
+
+function returnPresidentOrder(order) {
+  if (order === 1) {
+    return `- ${order}st Latter-day President`;
+  }
+  if (order === 2) {
+    return `- ${order}nd Latter-day President`;
+  }
+  if (order === 3) {
+    return `- ${order}rd Latter-day President`;
+  }
+  if (order === 11) {
+    return `- ${order}st Latter-day President`;
+  }
+  return `- ${order}th Latter-day President`;
 }
