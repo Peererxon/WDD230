@@ -17,6 +17,8 @@ function displayProphets(prophet) {
   let h2 = document.createElement("h2");
   let dateOfBirthPTag = document.createElement("p");
   let placeOfBirthPTag = document.createElement("p");
+  let deathPTag = document.createElement("p");
+  let numberOfChildren = document.createElement("p");
   let portrait = document.createElement("img");
 
   // Change the textContent property of the h2 element to contain the prophet's full name
@@ -25,6 +27,10 @@ function displayProphets(prophet) {
   dateOfBirthPTag.textContent = `Date of birth: ${prophet.birthdate}`;
 
   placeOfBirthPTag.textContent = `Place of birth: ${prophet.birthplace}`;
+
+  deathPTag.textContent = `Death: ${prophet.death}`;
+
+  numberOfChildren.textContent = `Number of children: ${prophet.numofchildren}`;
 
   // Build president order
 
@@ -41,7 +47,9 @@ function displayProphets(prophet) {
   // Add/append the section(card) with the h2 element
   card.appendChild(h2);
   card.appendChild(dateOfBirthPTag);
+  card.appendChild(deathPTag);
   card.appendChild(placeOfBirthPTag);
+  card.appendChild(numberOfChildren);
   card.appendChild(portrait);
 
   // Add/append the existing HTML div with the cards class with the section(card)
