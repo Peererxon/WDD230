@@ -142,6 +142,10 @@
   /*-------- Start Directory page --------*/
   div.companies-container {
     grid-template-columns: repeat(3, 1fr);
+    gap: 2em;
+  }
+  div.company-card:hover {
+    transform: translateY(-4px);
   }
   /*-------- End Directory page --------*/
 }
