@@ -88,4 +88,13 @@
   div.card {
     margin: 80px 0;
   }
+
+  /*-------- Start Directory page --------*/
+  div.companies-container {
+    justify-items: center;
+  }
+  div.company-card {
+    width: 70%;
+  }
+  /*-------- End Directory page --------*/
 }

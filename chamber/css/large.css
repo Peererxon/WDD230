@@ -139,4 +139,9 @@
   .selectionMenu ul {
     display: flex !important;
   }
+  /*-------- Start Directory page --------*/
+  div.companies-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  /*-------- End Directory page --------*/
 }
