@@ -403,3 +403,25 @@ div.card {
   animation: fadeIn 5s;
 }
 /*-------- end Thank you page --------*/
+
+/*-------- Start Directory page --------*/
+div.directory-container {
+  margin: 10px 15px;
+  text-align: center;
+}
+div.sort-display-buttons {
+  margin-bottom: 1em;
+}
+div.company-card {
+  text-align: center;
+  margin-bottom: 1em;
+  padding: 1em;
+  outline: 1px solid black;
+}
+div.company-card img {
+  width: 100%;
+}
+div.company-card p.company-name {
+  font-size: 2em;
+}
+/*-------- End Directory page --------*/
