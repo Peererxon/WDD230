@@ -421,25 +421,20 @@ div.directory-container {
 div.sort-display-buttons {
   margin-bottom: 1em;
 }
-div.company-card {
+div.company-card-grid-layout {
   text-align: center;
   padding: 1em;
   outline: 1px solid black;
 }
-div.company-card img {
+div.company-card-grid-layout img {
   width: 100%;
 }
-div.company-card p.company-name {
+div.company-card-grid-layout p.company-name {
   font-size: 2em;
 }
-/* div.directory-container {
-  margin: 10px 15px;
-  text-align: center;
-}
-div.sort-display-buttons {
-  margin-bottom: 1em;
-}
-div.company-card {
+
+/* list styles */
+div.company-card-list-layout {
   align-items: center;
   display: flex;
   padding: 1em;
@@ -447,22 +442,22 @@ div.company-card {
   outline: 1px solid black;
   justify-content: space-between;
 }
-div.company-card img {
+div.company-card-list-layout img {
   width: 100%;
 }
-div.company-card p.company-name {
+div.company-card-list-layout p.company-name {
   font-size: 2em;
-} */
-/* div.company-card img {
+}
+div.company-card-list-layout img {
   display: none;
-} */
-/* div.company-card p,
-div.company-card small,
-div.company-card a {
+}
+div.company-card-list-layout p,
+div.company-card-list-layout small,
+div.company-card-list-layout a {
   font-size: 1em !important;
-} */
-/* div.list div.company-card:nth-child(even) {
+}
+div.list div.company-card-list-layout:nth-child(even) {
   background-color: hsl(0, 0%, 93%, 1);
-} */
+}
 
 /*-------- End Directory page --------*/

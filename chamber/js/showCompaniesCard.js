@@ -17,6 +17,7 @@ const displayCompaniesCard = () => {
   website.textContent = "Website";
 
   // Build attributes
+  card.classList.add("company-card-grid-layout");
   card.classList.add("company-card");
   companiesContainer.classList.add("grid");
   companyLogo.setAttribute("src", "../images/500x300.png");
