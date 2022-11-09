@@ -18,7 +18,7 @@ const displayCompaniesCard = () => {
 
   // Build attributes
   card.classList.add("company-card");
-  companiesContainer.classList.add("list");
+  companiesContainer.classList.add("grid");
   companyLogo.setAttribute("src", "../images/500x300.png");
   companyLogo.setAttribute("alt", "company");
   companyName.classList.add("company-name");
