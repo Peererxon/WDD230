@@ -405,17 +405,21 @@ div.card {
 /*-------- end Thank you page --------*/
 
 /*-------- Start Directory page --------*/
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1em;
+}
+.list {
+  display: flex;
+  flex-direction: column;
+}
 div.directory-container {
   margin: 10px 15px;
   text-align: center;
 }
 div.sort-display-buttons {
   margin-bottom: 1em;
-}
-div.companies-container {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 1em;
 }
 div.company-card {
   text-align: center;
@@ -427,5 +431,22 @@ div.company-card img {
 }
 div.company-card p.company-name {
   font-size: 2em;
+}
+
+div.company-card {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+div.company-card img {
+  display: none;
+}
+div.company-card p,
+div.company-card small,
+div.company-card a {
+  font-size: 1em !important;
+}
+div.list div.company-card:nth-child(even) {
+  background-color: hsl(0, 0%, 93%, 1);
 }
 /*-------- End Directory page --------*/

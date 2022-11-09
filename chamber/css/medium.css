@@ -96,5 +96,9 @@
   div.company-card {
     width: 70%;
   }
+
+  div.company-card.list {
+    width: auto;
+  }
   /*-------- End Directory page --------*/
 }
