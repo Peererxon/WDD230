@@ -93,10 +93,12 @@
   div.companies-container {
     justify-items: center;
   }
-  div.company-card {
+  div.company-card-grid-layout {
     width: 70%;
   }
-
+  div.company-card-list-layout {
+    width: auto;
+  }
   div.company-card.list {
     width: auto;
   }

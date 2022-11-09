@@ -440,12 +440,12 @@ div.company-card-grid-layout p.company-name {
 
 /* list styles */
 div.company-card-list-layout {
-  align-items: center;
+  align-items: flex-start;
   display: flex;
+  flex-direction: column;
   padding: 1em;
   text-align: center;
   outline: 1px solid black;
-  justify-content: space-between;
 }
 div.company-card-list-layout img {
   width: 100%;

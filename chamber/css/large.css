@@ -142,10 +142,19 @@
   /*-------- Start Directory page --------*/
   div.companies-container {
     grid-template-columns: repeat(3, 1fr);
-    gap: 2em;
+    gap: 1em;
   }
   div.company-card:hover {
     transform: translateY(-4px);
+  }
+  div.company-card-list-layout {
+    align-items: center;
+    flex-direction: row;
+    display: flex;
+    padding: 1em;
+    text-align: center;
+    outline: 1px solid black;
+    justify-content: space-between;
   }
   /*-------- End Directory page --------*/
 }
