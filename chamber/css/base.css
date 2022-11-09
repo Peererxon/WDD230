@@ -414,6 +414,11 @@ div.card {
   display: flex;
   flex-direction: column;
 }
+#list,
+#grid {
+  background-color: white;
+  border: 1px solid black;
+}
 div.directory-container {
   margin: 10px 15px;
   text-align: center;
@@ -452,7 +457,6 @@ div.company-card-list-layout img {
   display: none;
 }
 div.company-card-list-layout p,
-div.company-card-list-layout small,
 div.company-card-list-layout a {
   font-size: 1em !important;
 }

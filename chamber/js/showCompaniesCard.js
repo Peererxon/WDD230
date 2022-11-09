@@ -6,7 +6,7 @@ const displayCompaniesCard = () => {
 
   const companyLogo = document.createElement("img");
   const companyName = document.createElement("p");
-  const category = document.createElement("small");
+  const category = document.createElement("p");
   const address = document.createElement("p");
   const website = document.createElement("a");
 
