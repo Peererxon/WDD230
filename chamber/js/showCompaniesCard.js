@@ -11,11 +11,12 @@ const displayCompaniesCard = (companies) => {
     const category = document.createElement("p");
     const address = document.createElement("p");
     const website = document.createElement("a");
+    const linkToOtherPage = document.createElement("img");
     // Set content
     companyName.textContent = company.name;
     category.textContent = company.category;
     address.textContent = company.address;
-    website.textContent = company.url;
+    website.textContent = "website";
     // Build attributes
     card.classList.add("company-card-grid-layout");
     card.classList.add("company-card");
@@ -23,12 +24,16 @@ const displayCompaniesCard = (companies) => {
     companyLogo.setAttribute("src", company.img);
     companyLogo.setAttribute("alt", "company");
     companyName.classList.add("company-name");
-    website.setAttribute("href", "#");
+    website.setAttribute("href", company.url);
+    website.setAttribute("target", "__blank");
+    linkToOtherPage.setAttribute("src", "../images/link.svg");
+    linkToOtherPage.setAttribute("alt", "link to other page");
     // Add/append elements
     card.appendChild(companyLogo);
     card.appendChild(companyName);
     card.appendChild(category);
     card.appendChild(address);
+    website.appendChild(linkToOtherPage);
     card.appendChild(website);
     // Add/append the existing HTML div with the cards class with the section(card)
     companiesContainer.appendChild(card);

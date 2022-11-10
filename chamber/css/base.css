@@ -460,6 +460,17 @@ div.company-card-list-layout p,
 div.company-card-list-layout a {
   font-size: 1em !important;
 }
+
+div.company-card-list-layout a,
+div.company-card-grid-layout a {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+}
+
+div.company-card-grid-layout a img {
+  width: 5%;
+}
 div.list div.company-card-list-layout:nth-child(even) {
   background-color: hsl(0, 0%, 93%, 1);
 }
