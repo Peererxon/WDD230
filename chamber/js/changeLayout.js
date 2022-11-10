@@ -4,7 +4,6 @@ const listbutton = document.querySelector("#list");
 const companiesContainerSelector = document.querySelector(
   "div.companies-container"
 );
-const companiesCards = document.querySelectorAll("div.company-card");
 
 // functions to change the companies card layout
 function changeCardToListLayout(cardContainer) {
@@ -40,3 +39,19 @@ gridbutton.addEventListener("click", () => {
   changeToGridLayout(companiesContainerSelector);
   changeCardToGridLayout(companiesCards);
 });
+
+const setEventListeners = () => {
+  const companiesCards = document.querySelectorAll("div.company-card");
+
+  listbutton.addEventListener("click", () => {
+    changeToListLayout(companiesContainerSelector);
+    changeCardToListLayout(companiesCards);
+  });
+
+  gridbutton.addEventListener("click", () => {
+    changeToGridLayout(companiesContainerSelector);
+    changeCardToGridLayout(companiesCards);
+  });
+};
+
+export default setEventListeners;
