@@ -8,7 +8,7 @@ const displayCompaniesCard = (companies) => {
     // Create elements to add to the document
     const card = document.createElement("div");
     const companyLogo = document.createElement("img");
-    const companyName = document.createElement("p");
+    const companyName = document.createElement("h2");
     const phoneNumber = document.createElement("p");
     const category = document.createElement("p");
     const address = document.createElement("p");
@@ -26,7 +26,7 @@ const displayCompaniesCard = (companies) => {
     companiesContainer.classList.add("grid");
     companyLogo.setAttribute("src", "../images/placeholder.png");
     companyLogo.setAttribute("data-src", company.img);
-    companyLogo.setAttribute("alt", company.name);
+    companyLogo.setAttribute("alt", `${company.name} logo`);
     companyName.classList.add("company-name");
     website.setAttribute("href", company.url);
     website.setAttribute("target", "__blank");
