@@ -41,11 +41,11 @@
       "membership": ""
     },
     {
-      "name": "Apple",
-      "img": "../images/apple.png",
-      "category": "Technology",
-      "address": "Cupertino, California, United States",
-      "url": "https://www.apple.com/",
+      "name": "Porsche",
+      "img": "../images/porsche.png",
+      "category": "Motor vehicles",
+      "address": "Stuttgart, Germany",
+      "url": "https://www.porsche.com/",
       "membership": ""
     },
     {
