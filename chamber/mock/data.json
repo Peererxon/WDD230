@@ -3,74 +3,92 @@
     {
       "name": "Amazon",
       "img": "../images/amazon.png",
+      "phoneNumber": "+1 202-918-2132",
       "category": "Technology",
       "address": "Seattle, Washington, United States",
       "url": "https://www.amazon.com/",
-      "membership": ""
+      "membership": "Gold"
     },
     {
       "name": "Toyota",
       "img": "../images/toyota.png",
+      "phoneNumber": "+81 90-3651-5047",
       "category": "Motor vehicles",
       "address": "Aichi Prefecture, Japan",
       "url": "https://www.toyota.com/",
-      "membership": ""
+      "membership": "Bronze"
     },
     {
       "name": "Nike",
       "img": "../images/nike.png",
+      "phoneNumber": "+1 203-469-3521",
       "category": "Clothing",
       "address": "Beaverton, Oregon, United States",
       "url": "https://www.nike.com/xl/",
-      "membership": ""
+      "membership": "Gold"
     },
     {
       "name": "Visa",
       "img": "../images/visa.png",
       "category": "Digital payments",
+      "phoneNumber": "+1 239-988-0077",
       "address": "San Francisco, California, United States",
       "url": "https://usa.visa.com",
-      "membership": ""
+      "membership": "Bronze"
     },
     {
       "name": "Nescafe",
       "img": "../images/nescafe.png",
+      "phoneNumber": "+41 75 134 86 19",
       "category": "Food",
       "address": "Vevey, Switzerland",
       "url": "https://www.nescafe.com/",
-      "membership": ""
+      "membership": "Bronze"
     },
     {
       "name": "Porsche",
       "img": "../images/porsche.png",
+      "phoneNumber": "+49 163 30008160",
       "category": "Motor vehicles",
       "address": "Stuttgart, Germany",
       "url": "https://www.porsche.com/",
-      "membership": ""
+      "membership": "Gold"
     },
     {
       "name": "Fedex",
       "img": "../images/fedex.png",
+      "phoneNumber": "+1 505-416-0730",
       "category": "shipments",
       "address": "Memphis, Tennessee, United States",
       "url": "https://www.fedex.com/global/choose-location.html",
-      "membership": ""
+      "membership": "Silver"
     },
     {
       "name": "Lego",
       "img": "../images/lego.png",
+      "phoneNumber": "+45 52 82 73 83",
       "category": "Toys",
       "address": "Billund, Denmark",
       "url": "https://www.lego.com/en-us",
-      "membership": ""
+      "membership": "Silver"
     },
     {
       "name": "Rolex",
       "img": "../images/rolex.png",
+      "phoneNumber": "+41 78 376 77 02",
       "category": "Wristwatches",
       "address": "Geneva, Switzerland",
       "url": "https://www.rolex.com",
-      "membership": ""
+      "membership": "Gold"
+    },
+    {
+      "name": "The Wikimedia Foundation",
+      "img": "../images/wikimedia.png",
+      "phoneNumber": "+1 936-889-0008",
+      "category": "Information",
+      "address": "San Francisco, California, United States",
+      "url": "https://wikimediafoundation.org/",
+      "membership": "Nonprofit"
     }
   ]
 }

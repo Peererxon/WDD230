@@ -1,4 +1,5 @@
 import setEventListeners from "./changeLayout.js";
+import setLazyLoad from "./setLazyLoad.js";
 
 const companiesContainer = document.querySelector("div.companies-container");
 
@@ -8,12 +9,15 @@ const displayCompaniesCard = (companies) => {
     const card = document.createElement("div");
     const companyLogo = document.createElement("img");
     const companyName = document.createElement("p");
+    const phoneNumber = document.createElement("p");
     const category = document.createElement("p");
     const address = document.createElement("p");
     const website = document.createElement("a");
     const linkToOtherPage = document.createElement("img");
     // Set content
     companyName.textContent = company.name;
+    // TODO: to change
+    phoneNumber.textContent = "+15987897";
     category.textContent = company.category;
     address.textContent = company.address;
     website.textContent = "website";
@@ -21,8 +25,9 @@ const displayCompaniesCard = (companies) => {
     card.classList.add("company-card-grid-layout");
     card.classList.add("company-card");
     companiesContainer.classList.add("grid");
-    companyLogo.setAttribute("src", company.img);
-    companyLogo.setAttribute("alt", "company");
+    companyLogo.setAttribute("src", "../images/placeholder.png");
+    companyLogo.setAttribute("data-src", company.img);
+    companyLogo.setAttribute("alt", company.name);
     companyName.classList.add("company-name");
     website.setAttribute("href", company.url);
     website.setAttribute("target", "__blank");
@@ -33,6 +38,7 @@ const displayCompaniesCard = (companies) => {
     card.appendChild(companyName);
     card.appendChild(category);
     card.appendChild(address);
+    card.appendChild(phoneNumber);
     website.appendChild(linkToOtherPage);
     card.appendChild(website);
     // Add/append the existing HTML div with the cards class with the section(card)
@@ -47,4 +53,5 @@ fetch(
   .then(({ companies }) => {
     displayCompaniesCard(companies);
     setEventListeners();
+    setLazyLoad();
   });
