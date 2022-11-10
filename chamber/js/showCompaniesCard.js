@@ -16,8 +16,7 @@ const displayCompaniesCard = (companies) => {
     const linkToOtherPage = document.createElement("img");
     // Set content
     companyName.textContent = company.name;
-    // TODO: to change
-    phoneNumber.textContent = "+15987897";
+    phoneNumber.textContent = company.phoneNumber;
     category.textContent = company.category;
     address.textContent = company.address;
     website.textContent = "website";
