@@ -10,6 +10,7 @@ const displayCompaniesCard = (companies) => {
     const companyLogo = document.createElement("img");
     const companyName = document.createElement("h2");
     const phoneNumber = document.createElement("p");
+    const membership = document.createElement("p");
     const category = document.createElement("p");
     const address = document.createElement("p");
     const website = document.createElement("a");
@@ -20,6 +21,7 @@ const displayCompaniesCard = (companies) => {
     category.textContent = company.category;
     address.textContent = company.address;
     website.textContent = "website";
+    membership.textContent = `Membership: ${company.membership}`;
     // Build attributes
     card.classList.add("company-card-grid-layout");
     card.classList.add("company-card");
@@ -38,6 +40,7 @@ const displayCompaniesCard = (companies) => {
     card.appendChild(category);
     card.appendChild(address);
     card.appendChild(phoneNumber);
+    card.appendChild(membership);
     website.appendChild(linkToOtherPage);
     card.appendChild(website);
     // Add/append the existing HTML div with the cards class with the section(card)
