@@ -1,11 +1,76 @@
 {
   "companies": [
     {
-      "name": "coke",
-      "img": "../images/500x300.png",
+      "name": "Amazon",
+      "img": "../images/amazon.png",
+      "category": "Technology",
+      "address": "Seattle, Washington, United States",
+      "url": "https://www.amazon.com/",
+      "membership": ""
+    },
+    {
+      "name": "Toyota",
+      "img": "../images/toyota.png",
+      "category": "Motor vehicles",
+      "address": "Aichi Prefecture, Japan",
+      "url": "https://www.toyota.com/",
+      "membership": ""
+    },
+    {
+      "name": "Nike",
+      "img": "../images/nike.png",
+      "category": "Clothing",
+      "address": "Beaverton, Oregon, United States",
+      "url": "https://www.nike.com/xl/",
+      "membership": ""
+    },
+    {
+      "name": "Visa",
+      "img": "../images/visa.png",
+      "category": "Digital payments",
+      "address": "San Francisco, California, United States",
+      "url": "https://usa.visa.com",
+      "membership": ""
+    },
+    {
+      "name": "Nestcafe",
+      "img": "../images/nestcafe.png",
       "category": "Food",
-      "address": "123 asdasd",
-      "url": "coke.com"
+      "address": "Vevey, Switzerland",
+      "url": "https://www.nescafe.com/",
+      "membership": ""
+    },
+    {
+      "name": "Apple",
+      "img": "../images/apple.png",
+      "category": "Technology",
+      "address": "Cupertino, California, United States",
+      "url": "https://www.apple.com/",
+      "membership": ""
+    },
+    {
+      "name": "Fedex",
+      "img": "../images/fedex.png",
+      "category": "shipments",
+      "address": "Memphis, Tennessee, United States",
+      "url": "https://www.fedex.com/global/choose-location.html",
+      "membership": ""
+    },
+    {
+      "name": "Lego",
+      "img": "../images/lego.png",
+      "category": "Toys",
+      "address": "Billund, Denmark",
+      "url": "https://www.lego.com/en-us",
+      "membership": ""
+    },
+    {
+      "name": "Rolex",
+      "img": "../images/rolex.png",
+      "category": "Wristwatches",
+      "address": "Geneva, Switzerland",
+      "url": "https://www.rolex.com",
+      "membership": ""
     }
   ]
 }
