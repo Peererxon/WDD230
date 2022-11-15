@@ -91,6 +91,8 @@ span[id] {
 #weather__content {
   display: grid;
   grid-template-columns: 2fr 1fr;
+  justify-items: center;
+  align-content: center;
 }
 
 #weather__content h2 {
