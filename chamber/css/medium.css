@@ -71,11 +71,6 @@
     grid-column: span 2;
   }
 
-  footer div:nth-child(1) {
-    display: flex;
-    justify-content: space-around;
-  }
-
   section.discover-aside-section {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
