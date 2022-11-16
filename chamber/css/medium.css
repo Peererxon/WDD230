@@ -58,6 +58,7 @@
 
   #weather {
     grid-column: 1;
+    overflow: initial;
   }
 
   #join {
