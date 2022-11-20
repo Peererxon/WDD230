@@ -88,6 +88,7 @@
   /*-------- Start Directory page --------*/
   div.companies-container {
     justify-items: center;
+    grid-template-columns: repeat(2, 1fr);
   }
   div.company-card-grid-layout {
     width: 70%;
