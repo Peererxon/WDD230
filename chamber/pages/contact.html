@@ -48,132 +48,51 @@
     <span id="date"></span>
     <span id="bannerMessage"> </span>
   </header>
-  <h1>CONTACT TEST</h1>
   <div class="join-form-container">
 
     <div class="membership-levels">
 
-      <h2>Membership Levels</h2>
+      <h2>Our contact information</h2>
 
       <div class="membership nonprofit">
-        <h2>Nonprofit</h2>
-        <h3 class="fee">No fee</h3>
-        <p>
-          Nonprofit membership is for businesses that are not for profit and are not
-          self-employed.
-        </p>
+        <h2>Visit us</h2>
+        <p>Technological Chamber of Commerce</p>
+        <p>Avenue Algimiro Bracamontes beeteewn 31 and 32 street</p>
+        <a href="mailto:technological.chamber@contact.com">technological.chamber@contact.com</a>
+        <p>Monday – Friday: 8:00 a.m. to 5:00 p.m</p>
       </div>
 
-      <div class="membership bronze">
-        <h2>Bronze</h2>
-        <h3 class="fee">$50/month</h3>
-        <p>
-          Bronze membership is for businesses with less than 50 employees that are for profit. Benefits
-          include:
-        </p>
-        <ul>
-          <li><span class="check">&check;</span> 10% discount on events</li>
-          <li><span class="check">&check;</span> 10% discount on advertising</li>
-          <li><span class="check">&check;</span> Networking, being a member of the chamber facilitates direct contact
-            with other affiliated
-            companies,
-            through events, thematic forums and training, among others.</li>
-        </ul>
-      </div>
-
-      <div class="membership silver">
-        <h2>Silver</h2>
-        <h3 class="fee">$100/month</h3>
-        <p>
-          Silver membership is for businesses with less than 250 employees that are for profit. This membership includes
-          all the benefits of the bronze membership and :
-        </p>
-        <ul>
-          <li><span class="check">&check;</span> VIP Service in certain processes of the Commercial Register</li>
-          <li><span class="check">&check;</span> Digital signature management for e-commerce</li>
-        </ul>
-      </div>
-
-      <div class="membership gold">
-        <h2>Gold</h2>
-        <h3 class="fee">$140/month</h3>
-        <p>
-          Gold membership is for businesses with more than 250 employees that are for profit. This membership includes
-          all the benefits of silver membership and :
-        </p>
-        <ul>
-          <li><span class="check">&check;</span> Entries to specialized thematic forums on aspects related to your
-            business activity.</li>
-          <li><span class="check">&check;</span> Free talks and training courses for your staff</li>
-          <li><span class="check">&check;</span> Training facilities designed according to your company's needs.</li>
-          <li><span class="check">&check;</span> Broadcasting of your company's contacts in the annual directory of the
-            Chambers of Commerce of Venezuela;
-            in addition, on the website.</li>
-        </ul>
+      <div class="membership nonprofit">
+        <h2>POINTS OF CONTACT</h2>
+        <p>Anderon GIl (President & CEO)</p>
+        <p>Ellen ripley (Vice President of Marketing and Communications)</p>
+        <p>John Mcclane (Membership Director)</p>
+        <p>Takahisa Taura (Operations Assistant)</p>
       </div>
     </div>
 
 
     <div class="form-container">
-      <h1>Join us</h1>
+      <h1>Contact us</h1>
       <form action="./thankyou.html" method="get">
         <div class="form-group">
-          <label for="firstName">First name *</label>
-          <input type="text" name="firstName" id="firstName" class="w-100" required>
-        </div>
-        <div class="form-group">
-          <label for="lastName">Last name *</label>
-          <input type="text" name="lastName" id="lastName" class="w-100" required>
-        </div>
-        <div class="form-group">
-          <label for="businessPosition">Business position</label>
-          <input type="text" name="businessPosition" id="businessPosition" class="w-100"
-            title="your business position, minimum 7 characters" pattern="^([A-Za-z0-9\-\s]){7,}">
-        </div>
-        <div class="form-group">
-          <label for="email">Email *</label>
-          <input type="email" name="email" id="email" class="w-100" placeholder="chamber@bussiness.com" required>
+          <label for="fullName">Full name *</label>
+          <input type="text" name="fullName" id="fullName" class="w-100" required>
         </div>
         <div class="form-group">
           <label for="cellPhoneNumber">Cell phone number *</label>
           <input type="tel" name="cellPhoneNumber" class="w-100" id="cellPhoneNumber" required>
         </div>
         <div class="form-group">
-          <label for="businessName">Business name *</label>
-          <input type="text" name="businessName" class="w-100" id="businessName" title="Your business name" required>
+          <label for="email">Email *</label>
+          <input type="email" name="email" id="email" class="w-100" placeholder="your-email@something.com" required>
         </div>
-        <div class="form-group">
-          <fieldset>
-            <legend>Membership * </legend>
-            <div class="group-radio">
-              <input type="radio" name="membership" id="np" required>
-              <label for="np" class="label-radio">Nonprofit</label>
-            </div>
-            <div class="group-radio">
-              <input type="radio" name="membership" id="bronze" required>
-              <label for="bronze" class="label-radio">Bronze</label>
-            </div>
-            <div class="group-radio">
-              <input type="radio" name="membership" id="silver" required>
-              <label for="silver" class="label-radio">Silver</label>
-            </div>
-            <div class="group-radio">
-              <input type="radio" name="membership" id="gold" required>
-              <label for="gold" class="label-radio">Gold</label>
-            </div>
-          </fieldset>
-        </div>
-
         <div class="form-group">
           <label for="businessDescription">Business description</label>
           <textarea name="businessDescription" id="businessDescription" cols="35" rows="5"></textarea>
         </div>
-        <div class="form-group">
-          <input type="hidden" name="submitDate" id="submitDate">
-        </div>
-
         <div class="form-group flex-center">
-          <button type="submit">Join</button>
+          <button type="submit">Contact us!</button>
         </div>
 
       </form>
