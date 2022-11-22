@@ -2,7 +2,6 @@
   .home {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 480px 1fr 1fr 1fr;
     column-gap: 20px;
   }
 
@@ -69,6 +68,7 @@
   #associates {
     grid-row: 3;
     grid-column: span 2;
+    height: fit-content;
   }
 
   section.discover-aside-section {
