@@ -230,7 +230,7 @@ a {
 .discover-container {
   display: grid;
   grid-template-columns: 1fr;
-  margin-top: 10px;
+  margin: 10px 5px;
 }
 
 #discover-gallery-image-1,
