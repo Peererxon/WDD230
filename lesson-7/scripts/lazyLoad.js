@@ -12,8 +12,9 @@ const preloadImage = (img) => {
   img.removeAttribute("data-src");
 };
 
+// This is practically a pollifill for the IntersectionObserver API
 if ("IntersectionObserver" in window) {
-  const imageOptions = {};
+  const imageOptions = {}; //configuraciones para el observer
 
   const imgObserver = new IntersectionObserver((entries, imgObserver) => {
     entries.forEach((entry) => {
