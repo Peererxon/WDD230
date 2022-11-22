@@ -1,94 +1,94 @@
 {
   "companies": [
     {
-      "name": "Amazon",
-      "img": "../images/amazon.png",
-      "phoneNumber": "+1 202-918-2132",
-      "category": "E-commerce",
-      "address": "Seattle, Washington, United States",
-      "url": "https://www.amazon.com/",
+      "name": "Farmatodo",
+      "img": "../images/farmatodo.webp",
+      "phoneNumber": "(0212)266.3577",
+      "category": "Drug store",
+      "address": "Street 32th-31st, Barquisimeto",
+      "url": "https://www.farmatodo.com/",
       "membership": "Gold"
     },
     {
-      "name": "Toyota",
-      "img": "../images/toyota.png",
-      "phoneNumber": "+81 90-3651-5047",
-      "category": "Motor vehicles",
-      "address": "Aichi Prefecture, Japan",
-      "url": "https://www.toyota.com/",
+      "name": "La parrilla del este",
+      "img": "../images/laparrilladeleste.webp",
+      "phoneNumber": "0251-4162096",
+      "category": "Restaurant",
+      "address": "Av. \"Circunvalación Norte Complejo Agroturistico Juan Canelón\" Km 6 Barquisimeto",
+      "url": "https://www.instagram.com/laparrilladeleste/?hl=es",
       "membership": "Bronze"
     },
     {
-      "name": "Nike",
-      "img": "../images/nike.png",
-      "phoneNumber": "+1 203-469-3521",
-      "category": "Clothing",
-      "address": "Beaverton, Oregon, United States",
-      "url": "https://www.nike.com/xl/",
-      "membership": "Gold"
-    },
-    {
-      "name": "Visa",
-      "img": "../images/visa.png",
-      "category": "Digital payments",
-      "phoneNumber": "+1 239-988-0077",
-      "address": "San Francisco, California, United States",
-      "url": "https://usa.visa.com",
-      "membership": "Bronze"
-    },
-    {
-      "name": "Nescafe",
-      "img": "../images/nescafe.png",
-      "phoneNumber": "+41 75 134 86 19",
-      "category": "Food",
-      "address": "Vevey, Switzerland",
-      "url": "https://www.nescafe.com/",
-      "membership": "Bronze"
-    },
-    {
-      "name": "Porsche",
-      "img": "../images/porsche.png",
-      "phoneNumber": "+49 163 30008160",
-      "category": "Motor vehicles",
-      "address": "Stuttgart, Germany",
-      "url": "https://www.porsche.com/",
-      "membership": "Gold"
-    },
-    {
-      "name": "Fedex",
-      "img": "../images/fedex.png",
-      "phoneNumber": "+1 505-416-0730",
-      "category": "shipments",
-      "address": "Memphis, Tennessee, United States",
-      "url": "https://www.fedex.com/global/choose-location.html",
-      "membership": "Silver"
-    },
-    {
-      "name": "Lego",
-      "img": "../images/lego.png",
-      "phoneNumber": "+45 52 82 73 83",
-      "category": "Toys",
-      "address": "Billund, Denmark",
-      "url": "https://www.lego.com/en-us",
-      "membership": "Silver"
-    },
-    {
-      "name": "Rolex",
-      "img": "../images/rolex.png",
-      "phoneNumber": "+41 78 376 77 02",
-      "category": "Wristwatches",
-      "address": "Geneva, Switzerland",
-      "url": "https://www.rolex.com",
-      "membership": "Gold"
-    },
-    {
-      "name": "The Wikimedia Foundation",
-      "img": "../images/Wikimedia_Foundation_Logo.png",
-      "phoneNumber": "+1 936-889-0008",
-      "category": "Information",
-      "address": "San Francisco, California, United States",
-      "url": "https://wikimediafoundation.org/",
+      "name": "Universitas fundación",
+      "img": "../images/universitas.webp",
+      "phoneNumber": "0414-7855710",
+      "category": "Lawyer foundation",
+      "address": "Street 17th, Universitas Fundación Building, Barquisimeto 3001, Lara",
+      "url": "https://universitasfundacion.com/",
       "membership": "Nonprofit"
+    },
+    {
+      "name": "Lidotel",
+      "img": "../images/lidotel.webp",
+      "category": "Hotel",
+      "phoneNumber": "(212) 212 1157",
+      "address": "Avenue Venezuela, Barquisimeto 3001, Lara",
+      "url": "https://lidotel.com/lidotel-hotel-boutique-barquisimeto/",
+      "membership": "Bronze"
+    },
+    {
+      "name": "Canguro",
+      "img": "../images/canguro.webp",
+      "phoneNumber": "0424-2246726",
+      "category": "Technology and maintenance",
+      "address": "Street 26th, C.C Cosmos Nivel PB",
+      "url": "https://cangurovenezuela.com/puntos-canguro/lara/cc-cosmos-planta-baja",
+      "membership": "Bronze"
+    },
+    {
+      "name": "Tubrica",
+      "img": "../images/tubrica.webp",
+      "phoneNumber": "+49 163 30008160",
+      "category": "Manufacturing and marketing of Piping Systems",
+      "address": "Industrial center \"punta norte\", street CA-3",
+      "url": "https://tubrica.com/",
+      "membership": "Gold"
+    },
+    {
+      "name": "La casa azul",
+      "img": "../images/lacasaazul.webp",
+      "phoneNumber": "+1 505-416-0730",
+      "category": "Distributor of material for bakeries",
+      "address": "Street 34th-33th, Barquisimeto center",
+      "url": "https://www.instagram.com/lacasaazul34/?hl=es",
+      "membership": "Silver"
+    },
+    {
+      "name": "Forum",
+      "img": "../images/forum.webp",
+      "phoneNumber": "0251-3869862",
+      "category": "Supermarket",
+      "address": "C.C Babilon, Av. Libertador, Barquisimeto",
+      "url": "https://www.instagram.com/forumsm_ve/?hl=es-la ",
+      "membership": "Silver"
+    },
+    {
+      "name": "Mango bajito",
+      "img": "../images/mango-bajito.webp",
+      "phoneNumber": "0424-8857326",
+      "category": "Groceries store",
+      "address": "C.C Sambil, Av. Venezuela, Barquisimeto",
+      "url": "https://www.instagram.com/mangobajitove/?hl=es-la",
+      "membership": "Gold"
+    },
+    {
+      "name": "Redvital",
+      "img": "../images/red-vital.webp",
+      "phoneNumber": "0800VITAL24 (0800-84825-24)",
+      "category": "Drug store",
+      "address": "In front of the obelisk of Barquisimeto",
+      "url": "https://redvital.com/",
+      "membership": "Gold"
     }
   ]
 }
