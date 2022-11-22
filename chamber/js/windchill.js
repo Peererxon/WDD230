@@ -48,14 +48,13 @@ function displayResults(data) {
 
   const temperature = data.main.temp;
   const iconSrc = `https://openweathermap.org/img/w/${data.weather[0].icon}.png`;
-  const desc = data.weather[0].description;
   const windSpeed = data.wind.speed;
 
   // Set values
   temp.textContent = temperature;
   wind.textContent = windSpeed;
   weatherIcon.setAttribute("src", iconSrc);
-  weatherIcon.setAttribute("alt", desc);
-  figcaption.textContent = desc;
+  weatherIcon.setAttribute("alt", "weather logo");
+  figcaption.textContent = data.weather[0].description;
   windChill.textContent = windchill(temperature, windSpeed);
 }
