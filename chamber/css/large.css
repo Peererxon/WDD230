@@ -74,6 +74,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-content: flex-start;
+    align-items: baseline;
   }
 
   .join-form-container h1 {
