@@ -187,6 +187,7 @@ span[id] {
 
 #news {
   overflow-y: scroll;
+  padding: 10px;
 }
 
 section {
