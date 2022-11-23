@@ -139,13 +139,12 @@ span[id] {
 #spot1,
 #spot2,
 #spot3 {
-  display: inline-block;
   overflow: hidden;
   height: 400px;
   width: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: end;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -154,27 +153,21 @@ span[id] {
 .spotTitle {
   background-color: #14213d;
   color: #e5e5e5;
-
   font-size: 2em;
   padding-top: 2px;
   padding-bottom: 2px;
   font-weight: bold;
+  margin-bottom: 0;
 }
 
 .spotTitle:hover {
   color: var(--secundary);
 }
 
-#spot1 {
-  background-image: url(../images/spot1.jpeg);
-}
-
-#spot2 {
-  background-image: url(../images/spot2.jpg);
-}
-
+#spot1,
+#spot2,
 #spot3 {
-  background-image: url(../images/spot3.jpeg);
+  background-image: url(../images/spotlight-placeholder.png);
 }
 
 .home section {
