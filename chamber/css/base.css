@@ -192,6 +192,10 @@ section {
   overflow: hidden;
 }
 
+section#associates {
+  padding: 10px;
+}
+
 footer {
   background-color: var(--primary);
   text-align: center;
