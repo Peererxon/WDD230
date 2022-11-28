@@ -226,6 +226,10 @@ a {
   margin: 10px 5px;
 }
 
+section.discover-aside-section > div {
+  margin-bottom: 18px;
+}
+
 #discover-gallery-image-1,
 #discover-gallery-image-2,
 #discover-gallery-image-3,
