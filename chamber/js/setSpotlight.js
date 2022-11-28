@@ -40,6 +40,10 @@ const setSpotlight = async () => {
   const spot2 = document.querySelector("#spot2");
   const spot3 = document.querySelector("#spot3");
 
+  const spotLink1 = document.querySelector("#spotLink1");
+  const spotLink2 = document.querySelector("#spotLink2");
+  const spotLink3 = document.querySelector("#spotLink3");
+
   const spotTitle1 = document.querySelector("#spotTitle1");
   const spotTitle2 = document.querySelector("#spotTitle2");
   const spotTitle3 = document.querySelector("#spotTitle3");
@@ -58,6 +62,15 @@ const setSpotlight = async () => {
   spotTitle1.textContent = randomCompanies[0].name;
   spotTitle2.textContent = randomCompanies[1].name;
   spotTitle3.textContent = randomCompanies[2].name;
+
+  // Setting spot links
+  spotLink1.setAttribute("target", "_blank");
+  spotLink2.setAttribute("target", "_blank");
+  spotLink2.setAttribute("target", "_blank");
+
+  spotLink1.setAttribute("href", randomCompanies[0].url);
+  spotLink2.setAttribute("href", randomCompanies[1].url);
+  spotLink3.setAttribute("href", randomCompanies[2].url);
 };
 
 setSpotlight();
