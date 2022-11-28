@@ -67,6 +67,11 @@ button.submit-button-form {
   width: 70%;
 }
 
+.form-text-area {
+  width: 100%;
+  box-sizing: border-box;
+}
+
 .grey-card {
   text-align: center;
   height: auto;
@@ -387,6 +392,11 @@ span.check {
 div.group-radio {
   margin-bottom: 25px;
 }
+
+div.form-container {
+  width: 90%;
+}
+
 /*-------- Thank you page --------*/
 .thank-you-container {
   display: flex;
