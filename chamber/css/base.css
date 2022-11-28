@@ -196,6 +196,10 @@ section#associates {
   padding: 10px;
 }
 
+section#discover-aside-section {
+  padding: 10px;
+}
+
 footer {
   background-color: var(--primary);
   text-align: center;
