@@ -64,10 +64,6 @@ const setSpotlight = async () => {
   spotTitle3.textContent = randomCompanies[2].name;
 
   // Setting spot links
-  spotLink1.setAttribute("target", "_blank");
-  spotLink2.setAttribute("target", "_blank");
-  spotLink2.setAttribute("target", "_blank");
-
   spotLink1.setAttribute("href", randomCompanies[0].url);
   spotLink2.setAttribute("href", randomCompanies[1].url);
   spotLink3.setAttribute("href", randomCompanies[2].url);
