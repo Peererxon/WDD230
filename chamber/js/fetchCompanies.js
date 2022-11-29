@@ -1,9 +1,7 @@
 const fetchCompanies = async () => {
-  const response = await fetch(
-    "https://raw.githubusercontent.com/Peererxon/WDD230/main/chamber/mock/data.json"
-  );
+  const response = await fetch("http://localhost:3000/companies");
 
-  const { companies } = await response.json();
+  const companies = await response.json();
 
   return companies;
 };

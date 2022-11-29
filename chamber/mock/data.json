@@ -37,21 +37,21 @@
       "membership": "Bronze"
     },
     {
-      "name": "Canguro",
-      "img": "../images/canguro.webp",
-      "phoneNumber": "0424-2246726",
-      "category": "Technology and maintenance",
-      "address": "Street 26th, C.C Cosmos Nivel PB",
-      "url": "https://cangurovenezuela.com/puntos-canguro/lara/cc-cosmos-planta-baja",
-      "membership": "Bronze"
+      "name": "CadiF1",
+      "img": "../images/cadif1.webp",
+      "phoneNumber": "0251-4416100",
+      "category": "Education",
+      "address": "C.C Sotavento, Avenue Pedro León Torres, 59th street",
+      "url": "https://cadif1.com/",
+      "membership": "Gold"
     },
     {
-      "name": "Tubrica",
-      "img": "../images/tubrica.webp",
-      "phoneNumber": "+49 163 30008160",
-      "category": "Manufacturing and marketing of Piping Systems",
-      "address": "Industrial center \"punta norte\", street CA-3",
-      "url": "https://tubrica.com/",
+      "name": "San Ignacio",
+      "img": "../images/sanignacio.webp",
+      "phoneNumber": "0412-5061877",
+      "category": "Drug store",
+      "address": "Avenue 20, between street 40th y 41st",
+      "url": "https://www.instagram.com/sanignacioprincipal/?hl=es",
       "membership": "Gold"
     },
     {
@@ -64,31 +64,31 @@
       "membership": "Silver"
     },
     {
-      "name": "Forum",
-      "img": "../images/forum.webp",
-      "phoneNumber": "0251-3869862",
-      "category": "Supermarket",
-      "address": "C.C Babilon, Av. Libertador, Barquisimeto",
-      "url": "https://www.instagram.com/forumsm_ve/?hl=es-la ",
+      "name": "Nova West",
+      "img": "../images/nova.webp",
+      "phoneNumber": "02512378673",
+      "category": "Restaurant",
+      "address": "Av. Libertador, streeet 56th",
+      "url": "https://www.instagram.com/novawest_restaurant/?hl=es",
       "membership": "Silver"
     },
     {
-      "name": "Mango bajito",
-      "img": "../images/mango-bajito.webp",
-      "phoneNumber": "0424-8857326",
-      "category": "Groceries store",
-      "address": "C.C Sambil, Av. Venezuela, Barquisimeto",
-      "url": "https://www.instagram.com/mangobajitove/?hl=es-la",
+      "name": "Alqui Equipos",
+      "img": "../images/alqui.webp",
+      "phoneNumber": "0251-416.43.56",
+      "category": "Computers",
+      "address": "Avenue 20th between street 14th-15th.  Manaure building Local 2",
+      "url": "http://www.alquiequipos.com.ve/",
       "membership": "Gold"
     },
     {
       "name": "Redvital",
-      "img": "../images/red-vital.webp",
+      "img": "../images/redvital.webp",
       "phoneNumber": "0800VITAL24 (0800-84825-24)",
       "category": "Drug store",
       "address": "In front of the obelisk of Barquisimeto",
       "url": "https://redvital.com/",
-      "membership": "Gold"
+      "membership": "Bronze"
     }
   ]
 }
