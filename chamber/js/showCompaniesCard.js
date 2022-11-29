@@ -48,9 +48,11 @@ const displayCompaniesCard = (companies) => {
   });
 };
 
-fetch("http://localhost:3000/companies")
+fetch(
+  "https://raw.githubusercontent.com/Peererxon/WDD230/main/chamber/mock/data.json"
+)
   .then((response) => response.json())
-  .then((companies) => {
+  .then(({ companies }) => {
     displayCompaniesCard(companies);
     setEventListeners();
     setLazyLoad();
