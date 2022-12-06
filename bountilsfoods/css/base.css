@@ -1,0 +1,10 @@
+/*-------- FOOTER --------*/
+footer {
+  background-color: #80b82d;
+}
+
+.footer-info {
+  display: flex;
+  flex-direction: column;
+}
+/*-------- END FOOTER --------*/
