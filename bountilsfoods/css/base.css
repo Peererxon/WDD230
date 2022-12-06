@@ -1,3 +1,17 @@
+/*-------- HEADER --------*/
+header {
+  background-color: #80b82d;
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 1rem;
+}
+#hamburger {
+  border: 1px solid #fff;
+  color: white;
+  padding: 0 5px;
+}
+/*-------- END HEADER --------*/
+
 /*-------- FOOTER --------*/
 footer {
   background-color: #80b82d;
