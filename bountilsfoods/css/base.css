@@ -1,6 +1,9 @@
+:root {
+  --primary: #80b82d;
+}
 /*-------- HEADER --------*/
 header {
-  background-color: #80b82d;
+  background-color: var(--primary);
   display: flex;
   justify-content: space-between;
   padding: 2rem 1rem;
@@ -14,12 +17,20 @@ header {
 
 /*-------- HERO --------*/
 .hero {
-  position: relative;
+  align-items: center;
+  background-image: url(../images/hero_small.png);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 300px;
 }
+
 .call-to-action {
-  position: absolute;
-  left: 50%;
-  bottom: 0;
+  background-color: var(--primary);
+  border-radius: 10px;
+  color: white;
+  text-decoration: none;
+  padding: 5px 20px;
 }
 /*-------- END HERO --------*/
 
