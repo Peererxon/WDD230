@@ -34,6 +34,24 @@ header {
 }
 /*-------- END HERO --------*/
 
+/*-------- BEST SELLERS --------*/
+.best_sellers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.best_sellers_item {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.best_sellers_item_info__price {
+  color: var(--primary);
+}
+/*-------- END BEST SELLERS --------*/
+
 /*-------- SUMMARY OF THE AREA --------*/
 .summary_area {
   height: 300px;
