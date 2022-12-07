@@ -31,6 +31,22 @@ header {
 }
 /*-------- END SUMMARY OF THE AREA --------*/
 
+/*-------- WEATHER --------*/
+.wheater {
+  height: 300px;
+  background-color: green;
+  color: white;
+}
+/*-------- END WEATHER --------*/
+
+/*-------- USER INFO --------*/
+.user_info {
+  height: 300px;
+  background-color: pink;
+  color: white;
+}
+/*-------- END USER INFO --------*/
+
 /*-------- FOOTER --------*/
 footer {
   background-color: #80b82d;
