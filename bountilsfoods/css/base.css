@@ -79,10 +79,22 @@ header {
 /*-------- FOOTER --------*/
 footer {
   background-color: #80b82d;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  justify-items: center;
+  padding: 1rem 0;
 }
 
 .footer-info {
   display: flex;
   flex-direction: column;
+  text-align: center;
+}
+
+.footer-info a {
+  color: black;
+  text-decoration: none;
+  margin: 1rem 0;
 }
 /*-------- END FOOTER --------*/
