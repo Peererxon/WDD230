@@ -13,13 +13,13 @@ header {
 /*-------- END HEADER --------*/
 
 /*-------- HERO --------*/
-.hero__image {
+.hero {
   position: relative;
 }
 .call-to-action {
   position: absolute;
   left: 50%;
-  bottom: 1%;
+  bottom: 0;
 }
 /*-------- END HERO --------*/
 
