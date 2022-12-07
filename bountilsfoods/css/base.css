@@ -12,6 +12,17 @@ header {
 }
 /*-------- END HEADER --------*/
 
+/*-------- HERO --------*/
+.hero__image {
+  position: relative;
+}
+.call-to-action {
+  position: absolute;
+  left: 50%;
+  bottom: 1%;
+}
+/*-------- END HERO --------*/
+
 /*-------- FOOTER --------*/
 footer {
   background-color: #80b82d;
