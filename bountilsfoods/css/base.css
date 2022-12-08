@@ -1,11 +1,18 @@
+/*-------- GLOBAL --------*/
 :root {
   --primary: #80b82d;
 }
 
-div.container {
+.off {
   opacity: 0.5;
   visibility: visible;
 }
+
+.none {
+  display: none !important;
+}
+
+/*-------- END GLOBAL --------*/
 
 /*-------- HEADER --------*/
 header {
