@@ -62,7 +62,7 @@ header {
 
 /*-------- WEATHER --------*/
 .weather {
-  height: 300px;
+  /* height: 300px; */
   background-color: green;
   color: white;
 }
@@ -95,6 +95,19 @@ p#current-weather__city {
 
 div.weather h2 {
   text-align: center;
+}
+
+.forecast {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.forecast__item {
+  align-items: center;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
 }
 
 /*-------- END WEATHER --------*/
