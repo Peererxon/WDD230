@@ -18,6 +18,13 @@ body {
   display: none !important;
 }
 
+.container {
+  margin: 0 1rem;
+}
+
+section h2 {
+  text-align: center;
+}
 /*-------- END GLOBAL --------*/
 
 /*-------- HEADER --------*/
@@ -103,7 +110,7 @@ div.socials img {
 /*-------- END HERO --------*/
 
 /*-------- BEST SELLERS --------*/
-.best_sellers {
+.best_sellers_items {
   display: flex;
   flex-direction: column;
   align-items: center;
