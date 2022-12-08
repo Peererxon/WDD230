@@ -67,15 +67,22 @@
     <div class="summary_area">
       <h1>TO ADD summary of the area</h1>
     </div>
-    <div class="wheater">
+    <div class="weather">
       <h2>Weather</h2>
       <div class="current-weather">
         <h3>Current weather</h3>
+        <div class="weathertest">
+          <div class="current-weather__city-description">
+            <p id="current-weather__city">Carlsbad, California, EE. UU</p>
+            <span id="current_weather__description">Condition description: SUNNY</span>
+          </div>
+          <div class="current-weather__temp-icon">
+            <img src="./images/50x50.png" alt="weather icon" id="currentWeatherIcon">
+            <span id="current_weather__temperature">30 ºF</span>
+          </div>
+        </div>
         <div>
-          <img src="./images/50x50.png" alt="weather icon" id="currentWeatherIcon">
-          <span id="current_weather__description">Loading</span>
-          <span id="current_weather__temperature">Loading</span>
-          <span id="current_weather__humidity">Loading</span>
+          <span id="current_weather__humidity">Humidity: 48%</span>
         </div>
       </div>
     </div>
@@ -98,7 +105,7 @@
     </div>
   </footer>
   <script src="js/getLastModifiedDate.js"></script>
-  <script type="module" src="./js/getWeatherAndForecast.js"></script>
+  <!-- <script type="module" src="./js/getWeatherAndForecast.js"></script> -->
 </body>
 
 </html>

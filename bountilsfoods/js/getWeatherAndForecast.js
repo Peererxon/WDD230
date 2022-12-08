@@ -15,11 +15,11 @@ const setCurrentWeather = (currentWeather) => {
   // Set values
   weatherIcon.setAttribute("src", iconSrc);
 
-  description.textContent = currentWeather.weather[0].description;
+  description.textContent = `Condition description: ${currentWeather.weather[0].description}`;
 
   temp.textContent = `${currentWeather.temp}℉`;
 
-  humidity.textContent = `${currentWeather.humidity}%`;
+  humidity.textContent = `Humidity: ${currentWeather.humidity}%`;
 };
 
 const setWeather = async () => {

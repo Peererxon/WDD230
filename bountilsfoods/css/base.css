@@ -61,11 +61,42 @@ header {
 /*-------- END SUMMARY OF THE AREA --------*/
 
 /*-------- WEATHER --------*/
-.wheater {
+.weather {
   height: 300px;
   background-color: green;
   color: white;
 }
+
+.weathertest {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.current-weather__city-description {
+  margin-bottom: 1rem;
+}
+
+#current_weather__temperature {
+  align-self: center;
+  width: 60px;
+  margin-left: 1rem;
+}
+
+p#current-weather__city {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.current-weather__temp-icon {
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+div.weather h2 {
+  text-align: center;
+}
+
 /*-------- END WEATHER --------*/
 
 /*-------- SUBMITTED DRINKS --------*/
