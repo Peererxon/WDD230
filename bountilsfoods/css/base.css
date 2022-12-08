@@ -143,7 +143,9 @@ div.socials img {
 /*-------- END SUMMARY OF THE AREA --------*/
 
 /*-------- WEATHER --------*/
-.weather {
+
+.current-weather {
+  margin-bottom: 3rem;
 }
 
 .weathertest {
@@ -164,6 +166,7 @@ div.socials img {
 
 p#current-weather__city {
   font-size: 1.5rem;
+  margin-top: 0;
   margin-bottom: 0.5rem;
 }
 
@@ -180,6 +183,12 @@ div.weather h2 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1rem;
+}
+
+.forecast div:nth-child(2) {
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  padding: 0 1rem;
 }
 
 .forecast__item {
