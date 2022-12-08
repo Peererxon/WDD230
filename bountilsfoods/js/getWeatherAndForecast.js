@@ -21,11 +21,12 @@ const setCurrentWeather = (currentWeather) => {
 
   humidity.textContent = `Humidity: ${currentWeather.humidity}%`;
 };
+
 const setForecast = (forecast) => {
   // Select container
   const forecastContainer = document.querySelector(".forecast");
 
-  [1, 2, 3].forEach(() => {
+  forecast.forEach((weather) => {
     // Create elements to add to the document
     const forecastItem = document.createElement("div");
 
@@ -51,7 +52,7 @@ const setForecast = (forecast) => {
     humidity.setAttribute("id", "current_weather__humidity");
 
     // Set values
-    const iconSrc = `https://openweathermap.org/img/w/01d.png`;
+    const iconSrc = `https://openweathermap.org/img/w/${weather.weather[0].icon}.png`;
 
     weatherIcon.setAttribute("src", iconSrc);
 
@@ -59,11 +60,11 @@ const setForecast = (forecast) => {
 
     date.textContent = "MON";
 
-    temperature.textContent = "30 ºF";
+    temperature.textContent = `${weather.temp.day} ℉`;
 
-    description.textContent = "Condition description: SUNNY";
+    description.textContent = `Condition description: ${weather.weather[0].description}`;
 
-    humidity.textContent = "Humidity: 48%";
+    humidity.textContent = `Humidity: ${weather.humidity}%`;
 
     // Append elements
     forecastItem.appendChild(date);
@@ -81,15 +82,22 @@ const setForecast = (forecast) => {
 };
 
 const setWeather = async () => {
-  // const weather = await fetchWeatherAndForecast();
-  // console.log(
-  //   "🚀 ~ file: getWeatherAndForecast.js:19 ~ setWeather ~ weather",
-  //   weather
-  // );
+  const weather = await fetchWeatherAndForecast();
+  console.log(
+    "🚀 ~ file: getWeatherAndForecast.js:19 ~ setWeather ~ weather",
+    weather
+  );
 
-  // setCurrentWeather(weather.current);
+  // :TODO: check this
+  const forecast = weather.daily.slice(1, 4);
+  console.log(
+    "🚀 ~ file: getWeatherAndForecast.js:91 ~ setWeather ~ forecast",
+    forecast
+  );
 
-  setForecast([]);
+  setCurrentWeather(weather.current);
+
+  setForecast(forecast);
 };
 
 setWeather();
