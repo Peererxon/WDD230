@@ -68,7 +68,16 @@
       <h1>TO ADD summary of the area</h1>
     </div>
     <div class="wheater">
-      <h1>TO ADD weather</h1>
+      <h2>Weather</h2>
+      <div class="current-weather">
+        <h3>Current weather</h3>
+        <div>
+          <img src="./images/50x50.png" alt="weather icon" id="currentWeatherIcon">
+          <span id="current_weather__description">Loading</span>
+          <span id="current_weather__temperature">Loading</span>
+          <span id="current_weather__humidity">Loading</span>
+        </div>
+      </div>
     </div>
     <div class="submitted_drinks">
       <h2 class="submitted_drinks__title">Total number of specialty drinks you submitted from the Fresh page</h2>
@@ -89,6 +98,7 @@
     </div>
   </footer>
   <script src="js/getLastModifiedDate.js"></script>
+  <script type="module" src="./js/getWeatherAndForecast.js"></script>
 </body>
 
 </html>

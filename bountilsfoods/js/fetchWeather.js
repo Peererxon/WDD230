@@ -1,17 +1,17 @@
-const url = `https://api.openweathermap.org/data/2.5/weather?q=Barquisimeto&units=imperial&appid=9292920acb5554113149ccdebbf09d8b`;
+const url = `https://api.openweathermap.org/data/2.5/onecall?lat=33.158092&lon=-117.350594&exclude=hourly,minutely&units=imperial&appid=9292920acb5554113149ccdebbf09d8b`;
 
-async function apiFetch() {
+async function fetchWeatherAndForecast() {
   try {
     const response = await fetch(url);
     if (response.ok) {
       const data = await response.json();
-      console.log(data);
+      return data;
     } else {
-      throw Error(await response.text());
+      throw new Error("can not fetch weather");
     }
   } catch (error) {
     console.log(error);
   }
 }
 
-apiFetch();
+export default fetchWeatherAndForecast;
