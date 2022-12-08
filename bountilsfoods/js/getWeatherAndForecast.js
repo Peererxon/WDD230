@@ -34,11 +34,11 @@ const setForecast = (forecast) => {
 
     const date = document.createElement("p");
 
-    const temperature = document.createElement("span");
+    const temperature = document.createElement("p");
 
-    const description = document.createElement("span");
+    const description = document.createElement("p");
 
-    const humidity = document.createElement("span");
+    const humidity = document.createElement("p");
 
     // Set classes and ids
     forecastItem.classList.add("forecast__item");
