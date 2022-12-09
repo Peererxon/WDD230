@@ -14,4 +14,6 @@ async function fetchFruits() {
   }
 }
 
-export default fetchFruits;
+const data = await fetchFruits();
+
+export default data;

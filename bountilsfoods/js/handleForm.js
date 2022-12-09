@@ -1,6 +1,24 @@
 import openModal from "./handleModal.js";
+import data from "./fetchFruits.js";
 
 const form = document.querySelector("#fresh-form");
+
+const getTotalCarbohydrates = (ingredient1, ingredient2, ingredient3) => {
+  const fruits = data.filter((fruit) => {
+    return (
+      fruit.name === ingredient1 ||
+      fruit.name === ingredient2 ||
+      fruit.name === ingredient3
+    );
+  });
+
+  const totalCalories =
+    fruits[0].nutritions.carbohydrates +
+    fruits[1].nutritions.carbohydrates +
+    fruits[2].nutritions.carbohydrates;
+
+  return totalCalories;
+};
 
 const setModalContent = ({
   firstName,
@@ -29,6 +47,15 @@ const setModalContent = ({
 
   document.querySelector("#orderDateModal").textContent =
     new Date().toDateString();
+
+  const totalCarbohydrates = getTotalCarbohydrates(
+    ingredient1,
+    ingredient2,
+    ingredient3
+  );
+
+  document.querySelector("#totalcarbohydratesModal").textContent =
+    totalCarbohydrates;
 
   openModal();
 };

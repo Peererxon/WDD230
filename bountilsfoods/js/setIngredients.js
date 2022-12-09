@@ -1,7 +1,7 @@
-import fetchFruits from "./fetchFruits.js";
+import data from "./fetchFruits.js";
 
 const setIngredients = async () => {
-  const fruits = await fetchFruits();
+  const fruits = data;
   console.log(
     "🚀 ~ file: setIngredients.js:5 ~ setIngredients ~ fruits",
     fruits
