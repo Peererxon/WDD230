@@ -254,3 +254,47 @@ footer {
   display: none;
 }
 /*-------- END SUBMENU --------*/
+
+/*-------- FRESH PAGE --------*/
+#fresh-title {
+  text-align: center;
+}
+div.form-group {
+  margin-bottom: 2rem;
+}
+div.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+div.form-group input {
+  height: 44px;
+  padding-left: 5px;
+}
+.form-group input,
+textarea {
+  border-radius: 15px;
+}
+.form-group input.w-100 {
+  width: 100%;
+}
+.form-text-area {
+  width: 100%;
+  box-sizing: border-box;
+}
+.form-group textarea {
+  padding: 10px;
+}
+button.submit-button-form {
+  background-color: var(--primary);
+  border: none;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  height: 40px;
+  justify-content: center;
+  line-height: 24px;
+  padding: 0px 20px;
+  width: 100%;
+}
+/*-------- END FRESH PAGE --------*/
