@@ -1,3 +1,5 @@
+import openModal from "./handleModal.js";
+
 const form = document.querySelector("#fresh-form");
 
 form.addEventListener("submit", (e) => {
@@ -19,4 +21,6 @@ form.addEventListener("submit", (e) => {
   const specialInstructions = document.querySelector(
     "#specialInstructions"
   ).value;
+
+  openModal();
 });
