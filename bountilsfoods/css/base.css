@@ -248,3 +248,9 @@ footer {
   margin: 1rem 0;
 }
 /*-------- END FOOTER --------*/
+
+/*-------- SUBMENU --------*/
+#submenu {
+  display: none;
+}
+/*-------- END SUBMENU --------*/
