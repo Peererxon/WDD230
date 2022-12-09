@@ -115,8 +115,6 @@
       </div>
     </div>
   </div>
-  <!-- Trigger/Open The Modal -->
-  <button id="myBtn">Open Modal</button>
 
   <!-- The Modal -->
   <div id="modal" class="modal">
@@ -125,78 +123,96 @@
     <div class="modal-content">
       <span class="close" id="closeModal">&times;</span>
       <h2>Your drink has been submitted!</h2>
-      <div class="form-group">
-        <p>First name:</p>
-        <p id="firstNameModal"></p>
-      </div>
-      <div class="form-group">
-        <p>Email:</p>
-        <p id="emailModal"></p>
-      </div>
-      <div class="form-group">
-        <p>Cell phone number:</p>
-        <p id="cellPhoneNumberModal"></p>
-      </div>
-      <div class="form-group">
-        <p>Ingredient 1:</p>
-        <p id="ingredient1Modal"></p>
-      </div>
-      <div class="form-group">
-        <p>Ingredient 2:</p>
-        <p id="ingredient2Modal"></p>
-      </div>
-      <div class="form-group">
-        <p>Ingredient 3:</p>
-        <p id="ingredient3Modal"></p>
-      </div>
-      <div class="form-group">
-        <p>Special Instructions:</p>
-        <p id="specialInstructionsModal"></p>
-      </div>
-      <div class="form-group">
-        <p>Order date:</p>
-        <p id="orderDateModal">12/12/2022</p>
-      </div>
-      <div class="form-group">
-        <p>Total carbohydrates:</p>
-        <p id="totalcarbohydratesModal"></p>
-        <div class="form-group">
-          <p>Total protein:</p>
-          <p id="totalProteinModal"></p>
+      <div class="modal__content">
+        <div>
+          <h3>Your information:</h3>
+          <hr />
+
+          <div class="form-group">
+            <p>First name:</p>
+            <p id="firstNameModal"></p>
+          </div>
+          <div class="form-group">
+            <p>Email:</p>
+            <p id="emailModal"></p>
+          </div>
+          <div class="form-group">
+            <p>Cell phone number:</p>
+            <p id="cellPhoneNumberModal"></p>
+          </div>
         </div>
-        <div class="form-group">
-          <p>Total fat:</p>
-          <p id="totalFatModal"></p>
+        <div>
+          <h3>Order information</h3>
+          <hr />
+
+          <div class="form-group">
+            <p>Ingredient 1:</p>
+            <p id="ingredient1Modal"></p>
+          </div>
+          <div class="form-group">
+            <p>Ingredient 2:</p>
+            <p id="ingredient2Modal"></p>
+          </div>
+          <div class="form-group">
+            <p>Ingredient 3:</p>
+            <p id="ingredient3Modal"></p>
+          </div>
+          <div class="form-group">
+            <p>Order date:</p>
+            <p id="orderDateModal">12/12/2022</p>
+          </div>
+          <div class="form-group">
+            <p>Special Instructions:</p>
+            <p id="specialInstructionsModal"></p>
+          </div>
+
         </div>
-        <div class="form-group">
-          <p>Total sugar:</p>
-          <p id="totalSugarModal"></p>
-        </div>
-        <div class="form-group">
-          <p>Total calories:</p>
-          <p id="totalCaloriesModal"></p>
+        <div>
+          <h3>Nutritions</h3>
+          <hr />
+          <div class="form-group">
+            <p>Total carbohydrates:</p>
+            <p id="totalcarbohydratesModal"></p>
+            <div class="form-group">
+              <p>Total protein:</p>
+              <p id="totalProteinModal"></p>
+            </div>
+            <div class="form-group">
+              <p>Total fat:</p>
+              <p id="totalFatModal"></p>
+            </div>
+            <div class="form-group">
+              <p>Total sugar:</p>
+              <p id="totalSugarModal"></p>
+            </div>
+            <div class="form-group">
+              <p>Total calories:</p>
+              <p id="totalCaloriesModal"></p>
+            </div>
+          </div>
         </div>
       </div>
 
     </div>
-    <footer>
-      <picture>
-        <source media="(min-width: 1200px)" srcset="../images/to-change">
-        <source media="(min-width: 700px)" srcset="../images/to-change">
-        <img src="../images/logo-small.png" alt="Bountil Foods">
-      </picture>
-      <div class="footer-info">
-        <small> &#169; Fountil Foods | WDD230 Final Project</small>
-        <a href="https://openweathermap.org/" target="_blank" rel="noopener noreferrer">Weather data provided by
-          OpenWeather</a>
-        <small id="lastModifiedDate"></small>
-      </div>
-    </footer>
-    <script src="../js/getLastModifiedDate.js"></script>
-    <script src="../js/handleMenu.js"></script>
-    <script src="../js/fixedHeader.js"></script>
-    <script type="module" src="../js/handleForm.js"></script>
-    <script type="module" src="../js/setIngredients.js"></script>
+  </div>
+  <footer>
+    <picture>
+      <source media="(min-width: 1200px)" srcset="../images/to-change">
+      <source media="(min-width: 700px)" srcset="../images/to-change">
+      <img src="../images/logo-small.png" alt="Bountil Foods">
+    </picture>
+    <div class="footer-info">
+      <small> &#169; Fountil Foods | WDD230 Final Project</small>
+      <a href="https://openweathermap.org/" target="_blank" rel="noopener noreferrer">Weather data provided by
+        OpenWeather</a>
+      <small id="lastModifiedDate"></small>
+    </div>
+  </footer>
+  <script src="../js/getLastModifiedDate.js"></script>
+  <script src="../js/handleMenu.js"></script>
+  <script src="../js/fixedHeader.js"></script>
+  <script type="module" src="../js/handleForm.js"></script>
+  <script type="module" src="../js/setIngredients.js"></script>
 </body>
 
 </html>

@@ -71,5 +71,8 @@
     background-position: center center;
     background-size: cover;
   }
+  .modal__content {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
   /*-------- END FRESH PAGE --------*/
 }

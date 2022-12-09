@@ -13,4 +13,12 @@
     max-width: 90%;
   }
   /*-------- END BEST SELLERS --------*/
+
+  /*-------- FRESH PAGE --------*/
+  .modal__content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+  }
+  /*-------- END FRESH PAGE --------*/
 }

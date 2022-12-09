@@ -314,7 +314,8 @@ button.submit-button-form {
   display: none;
   position: fixed;
   z-index: 1;
-  padding-top: 100px;
+  padding-top: 2rem;
+  margin-bottom: 2rem;
   left: 0;
   top: 0;
   width: 100%;
@@ -323,9 +324,13 @@ button.submit-button-form {
   background-color: rgba(0, 0, 0, 0.4);
 }
 
+.modal h2 {
+  text-align: center;
+}
+
 .modal-content {
   background-color: #fefefe;
-  margin: auto;
+  margin: 2rem auto;
   padding: 20px;
   border: 1px solid #888;
   width: 80%;
