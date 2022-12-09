@@ -9,6 +9,12 @@ body {
   font-family: "Work Sans", sans-serif;
 }
 
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
 .off {
   opacity: 0.5;
   visibility: visible;
@@ -38,7 +44,7 @@ section h2 {
 /*-------- END HOME --------*/
 
 /*-------- HEADER --------*/
-header {
+#main-menu {
   background-color: var(--primary);
   display: flex;
   justify-content: space-between;

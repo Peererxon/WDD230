@@ -15,38 +15,46 @@
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/base.css">
   <link rel="stylesheet" href="css/medium.css">
+  <link rel="stylesheet" href="css/large.css">
   <title>Bountiful Foods | Home</title>
 </head>
 
 <body>
 
   <header>
-    <picture>
-      <source media="(min-width: 1200px)" srcset="images/logo-small.png">
-      <source media="(min-width: 700px)" srcset="images/logo-small.png">
-      <img src="images/logo-small.png" alt="Bountils Food">
-    </picture>
-    <span class="material-symbols-outlined" id="hamburger">
-      menu
-    </span>
-    <div id="menu" class="none">
-      <span class="material-symbols-outlined" id="close">
-        close
+    <div id="main-menu">
+      <picture>
+        <source media="(min-width: 1200px)" srcset="images/logo-small.png">
+        <source media="(min-width: 700px)" srcset="images/logo-small.png">
+        <img src="images/logo-small.png" alt="Bountils Food">
+      </picture>
+      <span class="material-symbols-outlined" id="hamburger">
+        menu
       </span>
-      <div class="socials">
-        <a href="https://www.facebook.com/" target="_blank"><img class="socials__img" src="images/facebook.webp"
-            alt="facebook"></a>
-        <a href="https://www.instagram.com/" target="_blank"><img class="socials__img" src="images/instagram.webp"
-            alt="instagram"></a>
-        <a href="https://www.linkedin.com/" target="_blank"><img class="socials__img" src="images/linkedin.webp"
-            alt="linkedin"></a>
+      <div id="menu" class="none">
+        <span class="material-symbols-outlined" id="close">
+          close
+        </span>
+        <div class="socials">
+          <a href="https://www.facebook.com/" target="_blank"><img class="socials__img" src="images/facebook.webp"
+              alt="facebook"></a>
+          <a href="https://www.instagram.com/" target="_blank"><img class="socials__img" src="images/instagram.webp"
+              alt="instagram"></a>
+          <a href="https://www.linkedin.com/" target="_blank"><img class="socials__img" src="images/linkedin.webp"
+              alt="linkedin"></a>
+        </div>
+        <div class="links">
+          <a href="index.html">Home</a>
+          <a href="#">Fresh</a>
+          <a href="#">About us</a>
+        </div>
+        <a class="email" href="mailto:bountilsfood@contact.com">bountilsfood@contact.com</a>
       </div>
-      <div class="links">
-        <a href="index.html">Home</a>
-        <a href="#">Fresh</a>
-        <a href="#">About us</a>
-      </div>
-      <a class="email" href="mailto:bountilsfood@contact.com">bountilsfood@contact.com</a>
+    </div>
+    <div id="submenu">
+      <a href="index.html">Home</a>
+      <a href="#">Fresh</a>
+      <a href="#">About us</a>
     </div>
   </header>
 
@@ -150,6 +158,7 @@
   <script src="js/getLastModifiedDate.js"></script>
   <script type="module" src="./js/getWeatherAndForecast.js"></script>
   <script src="js/handleMenu.js"></script>
+  <script src="js/fixedHeader.js"></script>
 </body>
 
 </html>

@@ -1,0 +1,23 @@
+@media screen and (min-width: 1200px) {
+  #hamburger {
+    display: none;
+  }
+  #submenu {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2.5rem;
+  }
+
+  #submenu a {
+    text-decoration: none;
+    color: black;
+    padding: 0 2rem;
+    font-size: 1.5rem;
+  }
+
+  #submenu a:hover {
+    color: var(--primary);
+  }
+}
