@@ -20,6 +20,23 @@ const getTotalCarbohydrates = (ingredient1, ingredient2, ingredient3) => {
   return totalCalories;
 };
 
+const getTotalProtein = (ingredient1, ingredient2, ingredient3) => {
+  const fruits = data.filter((fruit) => {
+    return (
+      fruit.name === ingredient1 ||
+      fruit.name === ingredient2 ||
+      fruit.name === ingredient3
+    );
+  });
+
+  const totalProtein =
+    fruits[0].nutritions.protein +
+    fruits[1].nutritions.protein +
+    fruits[2].nutritions.protein;
+
+  return totalProtein;
+};
+
 const setModalContent = ({
   firstName,
   email,
@@ -54,8 +71,12 @@ const setModalContent = ({
     ingredient3
   );
 
+  const totalProtein = getTotalProtein(ingredient1, ingredient2, ingredient3);
+
   document.querySelector("#totalcarbohydratesModal").textContent =
     totalCarbohydrates;
+
+  document.querySelector("#totalProteinModal").textContent = totalProtein;
 
   openModal();
 };
