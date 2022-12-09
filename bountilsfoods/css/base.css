@@ -105,6 +105,10 @@ div.socials img {
 #menu .email {
   text-align: center;
 }
+
+.social-large {
+  display: none;
+}
 /*-------- END HEADER --------*/
 
 /*-------- HERO --------*/
