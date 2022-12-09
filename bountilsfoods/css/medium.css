@@ -1,0 +1,16 @@
+@media screen and (min-width: 700px) {
+  /*-------- BEST SELLERS --------*/
+  .best_sellers_items {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .best_sellers_item {
+    justify-content: center;
+    align-items: center;
+  }
+  img {
+    max-width: 90%;
+  }
+  /*-------- END BEST SELLERS --------*/
+}
