@@ -297,4 +297,11 @@ button.submit-button-form {
   padding: 0px 20px;
   width: 100%;
 }
+.form-group select {
+  background-color: white;
+  padding: 10px;
+  height: 44px;
+  width: 100%;
+  border-radius: 15px;
+}
 /*-------- END FRESH PAGE --------*/
