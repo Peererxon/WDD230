@@ -44,4 +44,8 @@
     grid-column-start: 2;
     grid-column-end: 3;
   }
+
+  .best_sellers_items {
+    justify-content: center;
+  }
 }
