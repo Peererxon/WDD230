@@ -20,4 +20,28 @@
   #submenu a:hover {
     color: var(--primary);
   }
+
+  .container {
+    max-width: 1200px;
+    margin: auto;
+  }
+
+  .container-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .best_sellers {
+    grid-column-start: 1;
+    grid-column-end: 4;
+  }
+
+  .weather {
+    grid-column-start: 3;
+    grid-column-end: 4;
+  }
+
+  .submitted_drinks {
+    grid-column-start: 2;
+    grid-column-end: 3;
+  }
 }
