@@ -54,6 +54,23 @@ const getTotalfat = (ingredient1, ingredient2, ingredient3) => {
   return totalFat;
 };
 
+const getTotalSugar = (ingredient1, ingredient2, ingredient3) => {
+  const fruits = data.filter((fruit) => {
+    return (
+      fruit.name === ingredient1 ||
+      fruit.name === ingredient2 ||
+      fruit.name === ingredient3
+    );
+  });
+
+  const totalSugar =
+    fruits[0].nutritions.sugar +
+    fruits[1].nutritions.sugar +
+    fruits[2].nutritions.sugar;
+
+  return totalSugar;
+};
+
 const setModalContent = ({
   firstName,
   email,
@@ -92,12 +109,16 @@ const setModalContent = ({
 
   const totalFat = getTotalfat(ingredient1, ingredient2, ingredient3);
 
+  const totalSugar = getTotalSugar(ingredient1, ingredient2, ingredient3);
+
   document.querySelector("#totalcarbohydratesModal").textContent =
     totalCarbohydrates;
 
   document.querySelector("#totalProteinModal").textContent = totalProtein;
 
   document.querySelector("#totalFatModal").textContent = totalFat;
+
+  document.querySelector("#totalSugarModal").textContent = totalSugar;
 
   openModal();
 };
