@@ -1,5 +1,6 @@
 import openModal from "./handleModal.js";
 import data from "./fetchFruits.js";
+import { addSumittedDrinksCounter } from "./localstorage.js";
 
 const form = document.querySelector("#fresh-form");
 
@@ -141,8 +142,11 @@ const setModalContent = ({
 
   document.querySelector("#totalCaloriesModal").textContent = totalCalories;
 
+  addSumittedDrinksCounter();
+
   openModal();
 };
+
 form.addEventListener("submit", (e) => {
   e.preventDefault();
 
