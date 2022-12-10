@@ -70,6 +70,10 @@ section h2 {
   z-index: 100;
 }
 
+#menu a.email {
+  color: black;
+  text-decoration: none;
+}
 div.socials {
   display: flex;
   color: white;
