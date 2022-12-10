@@ -237,7 +237,14 @@ footer {
   grid-template-columns: 1fr;
   gap: 1rem;
   justify-items: center;
+  align-items: center;
   padding: 1rem 0;
+}
+
+footer div#contact {
+  text-align: center;
+  grid-row-start: 2;
+  grid-row-end: 2;
 }
 
 .footer-info {

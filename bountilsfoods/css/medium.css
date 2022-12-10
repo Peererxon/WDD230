@@ -21,4 +21,15 @@
     justify-items: center;
   }
   /*-------- END FRESH PAGE --------*/
+
+  /*-------- FOOTER --------*/
+  footer {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  footer div#contact {
+    grid-row-start: auto;
+    grid-row-end: auto;
+  }
+  /*-------- END FOOTER --------*/
 }
