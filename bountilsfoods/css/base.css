@@ -45,6 +45,15 @@ section h2 {
 /*-------- END HOME --------*/
 
 /*-------- HEADER --------*/
+
+.bf-logo {
+  width: 50%;
+}
+
+.logo-header {
+  align-self: center;
+}
+
 #main-menu {
   background-color: var(--primary);
   display: flex;

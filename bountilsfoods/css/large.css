@@ -1,4 +1,7 @@
 @media screen and (min-width: 1200px) {
+  .bf-logo {
+    width: 40%;
+  }
   #hamburger {
     display: none;
   }
