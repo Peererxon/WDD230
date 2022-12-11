@@ -31,5 +31,9 @@
     grid-row-start: auto;
     grid-row-end: auto;
   }
+
+  .bf-logo-footer {
+    width: 70%;
+  }
   /*-------- END FOOTER --------*/
 }
