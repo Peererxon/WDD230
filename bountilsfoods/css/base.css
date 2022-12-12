@@ -181,11 +181,14 @@ div.socials img {
 
 /*-------- WEATHER --------*/
 
+#weather {
+  text-align: center;
+}
 .current-weather {
   margin-bottom: 3rem;
 }
 
-.weathertest {
+.current-weather-info {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -209,6 +212,7 @@ p#current-weather__city {
 
 .current-weather__temp-icon {
   display: flex;
+  justify-content: center;
   margin-bottom: 1rem;
 }
 
