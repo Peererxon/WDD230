@@ -78,4 +78,14 @@
     grid-template-columns: 1fr 1fr 1fr;
   }
   /*-------- END FRESH PAGE --------*/
+
+  /*-------- ABOUT US --------*/
+  .team-members {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .about-us-section {
+    margin: 0 2rem;
+  }
+  /*-------- END ABOUT US --------*/
 }

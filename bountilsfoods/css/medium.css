@@ -36,4 +36,11 @@
     width: 70%;
   }
   /*-------- END FOOTER --------*/
+
+  /*-------- ABOUT US --------*/
+  .team-members {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  /*-------- END ABOUT US --------*/
 }
