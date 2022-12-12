@@ -13,10 +13,11 @@ const getTotalCarbohydrates = (ingredient1, ingredient2, ingredient3) => {
     );
   });
 
-  const totalCalories =
-    fruits[0].nutritions.carbohydrates +
-    fruits[1].nutritions.carbohydrates +
-    fruits[2].nutritions.carbohydrates;
+  let totalCalories = 0;
+
+  fruits.forEach((element) => {
+    totalCalories += element.nutritions.carbohydrates;
+  });
 
   return totalCalories;
 };
@@ -30,10 +31,11 @@ const getTotalProtein = (ingredient1, ingredient2, ingredient3) => {
     );
   });
 
-  const totalProtein =
-    fruits[0].nutritions.protein +
-    fruits[1].nutritions.protein +
-    fruits[2].nutritions.protein;
+  let totalProtein = 0;
+
+  fruits.forEach((element) => {
+    totalProtein += element.nutritions.protein;
+  });
 
   return totalProtein;
 };
@@ -47,10 +49,11 @@ const getTotalfat = (ingredient1, ingredient2, ingredient3) => {
     );
   });
 
-  const totalFat =
-    fruits[0].nutritions.fat +
-    fruits[1].nutritions.fat +
-    fruits[2].nutritions.fat;
+  let totalFat = 0;
+
+  fruits.forEach((element) => {
+    totalFat += element.nutritions.fat;
+  });
 
   return totalFat;
 };
@@ -64,10 +67,11 @@ const getTotalCalories = (ingredient1, ingredient2, ingredient3) => {
     );
   });
 
-  const totalCalories =
-    fruits[0].nutritions.calories +
-    fruits[1].nutritions.calories +
-    fruits[2].nutritions.calories;
+  let totalCalories = 0;
+
+  fruits.forEach((element) => {
+    totalCalories += element.nutritions.calories;
+  });
 
   return totalCalories;
 };
@@ -81,10 +85,11 @@ const getTotalSugar = (ingredient1, ingredient2, ingredient3) => {
     );
   });
 
-  const totalSugar =
-    fruits[0].nutritions.sugar +
-    fruits[1].nutritions.sugar +
-    fruits[2].nutritions.sugar;
+  let totalSugar = 0;
+
+  fruits.forEach((element) => {
+    totalSugar += element.nutritions.sugar;
+  });
 
   return totalSugar;
 };
