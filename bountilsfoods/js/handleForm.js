@@ -18,8 +18,7 @@ const getTotalCarbohydrates = (ingredient1, ingredient2, ingredient3) => {
   fruits.forEach((element) => {
     totalCalories += element.nutritions.carbohydrates;
   });
-
-  return totalCalories;
+  return Math.trunc(totalCalories * 100) / 100;
 };
 
 const getTotalProtein = (ingredient1, ingredient2, ingredient3) => {
@@ -37,7 +36,7 @@ const getTotalProtein = (ingredient1, ingredient2, ingredient3) => {
     totalProtein += element.nutritions.protein;
   });
 
-  return totalProtein;
+  return Math.trunc(totalProtein * 100) / 100;
 };
 
 const getTotalfat = (ingredient1, ingredient2, ingredient3) => {
@@ -55,7 +54,7 @@ const getTotalfat = (ingredient1, ingredient2, ingredient3) => {
     totalFat += element.nutritions.fat;
   });
 
-  return totalFat;
+  return Math.trunc(totalFat * 100) / 100;
 };
 
 const getTotalCalories = (ingredient1, ingredient2, ingredient3) => {
@@ -73,7 +72,7 @@ const getTotalCalories = (ingredient1, ingredient2, ingredient3) => {
     totalCalories += element.nutritions.calories;
   });
 
-  return totalCalories;
+  return Math.trunc(totalCalories * 100) / 100;
 };
 
 const getTotalSugar = (ingredient1, ingredient2, ingredient3) => {
@@ -91,7 +90,7 @@ const getTotalSugar = (ingredient1, ingredient2, ingredient3) => {
     totalSugar += element.nutritions.sugar;
   });
 
-  return totalSugar;
+  return Math.trunc(totalSugar * 100) / 100;
 };
 
 const setModalContent = ({
