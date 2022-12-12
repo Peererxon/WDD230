@@ -1,4 +1,8 @@
 @media screen and (min-width: 1200px) {
+  .hero-text-container {
+    margin-right: 35%;
+  }
+
   .bf-logo {
     width: 40%;
   }

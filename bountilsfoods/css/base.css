@@ -45,6 +45,13 @@ section h2 {
 
 /*-------- HEADER --------*/
 
+.hero-text-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .bf-logo {
   width: 50%;
 }
