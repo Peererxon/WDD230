@@ -56,7 +56,7 @@ const setForecast = (forecast) => {
 
     weatherIcon.setAttribute("src", iconSrc);
 
-    weatherIcon.setAttribute("alt", "weather icon");
+    weatherIcon.setAttribute("alt", `${weather.weather[0].description} icon`);
 
     date.textContent = "MON";
 

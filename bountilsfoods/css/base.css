@@ -30,7 +30,6 @@ body {
 }
 
 section h2 {
-  color: var(--primary);
   text-align: center;
 }
 /*-------- END GLOBAL --------*/
@@ -136,10 +135,11 @@ div.socials img {
 
 .call-to-action {
   background-color: var(--primary);
+  color: #000;
+  font-weight: bold;
   border-radius: 10px;
-  color: white;
   text-decoration: none;
-  padding: 5px 20px;
+  padding: 10px 20px;
 }
 /*-------- END HERO --------*/
 
@@ -154,10 +154,6 @@ div.socials img {
   display: flex;
   flex-direction: column;
   text-align: center;
-}
-
-.best_sellers_item_info__price {
-  color: var(--primary);
 }
 /*-------- END BEST SELLERS --------*/
 
@@ -232,10 +228,6 @@ div.weather h2 {
   flex-direction: column;
   justify-content: center;
   text-align: center;
-}
-
-.submitted_drinks__title {
-  color: var(--primary);
 }
 
 .submitted_drinks_counter {
