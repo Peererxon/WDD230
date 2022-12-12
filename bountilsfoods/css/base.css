@@ -381,3 +381,32 @@ button.submit-button-form {
 }
 /*-------- END MODAL --------*/
 /*-------- END FRESH PAGE --------*/
+
+/*-------- ABOUT US --------*/
+.about-us-section h3,
+h2,
+h1 {
+  text-align: center;
+}
+
+.about-us-section section {
+  margin-bottom: 3rem;
+}
+
+.team-member {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.team-member img {
+  width: 50%;
+  border-radius: 50%;
+}
+
+.about-us-contact {
+  text-align: center;
+}
+#bf-map {
+  width: 100%;
+}
+/*-------- END ABOUT US --------*/
