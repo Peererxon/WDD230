@@ -1,5 +1,19 @@
 import fetchWeatherAndForecast from "./fetchWeather.js";
 
+const getDateFromEpoch = (epoch) => {
+  const today = new Date(epoch * 1000);
+  const yyyy = today.getFullYear();
+  let mm = today.getMonth() + 1; // Months start at 0!
+  let dd = today.getDate();
+
+  if (dd < 10) dd = "0" + dd;
+  if (mm < 10) mm = "0" + mm;
+
+  const formattedDate = mm + "/" + dd + "/" + yyyy;
+
+  return formattedDate;
+};
+
 const setCurrentWeather = (currentWeather) => {
   // Select elements
   const temp = document.querySelector("#current_weather__temperature");
@@ -58,7 +72,7 @@ const setForecast = (forecast) => {
 
     weatherIcon.setAttribute("alt", `${weather.weather[0].description} icon`);
 
-    date.textContent = "MON";
+    date.textContent = getDateFromEpoch(weather.dt);
 
     temperature.textContent = `${weather.temp.day} ℉`;
 
