@@ -61,8 +61,8 @@ section h2 {
   padding: 2rem 1rem;
 }
 #hamburger {
-  border: 1px solid #fff;
-  color: white;
+  border: 1px solid black;
+  color: black;
   padding: 0 5px;
 }
 
@@ -363,7 +363,7 @@ button.submit-button-form {
 }
 
 .close {
-  color: #aaaaaa;
+  color: black;
   float: right;
   font-size: 28px;
   font-weight: bold;
