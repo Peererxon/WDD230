@@ -1,4 +1,7 @@
 @media screen and (min-width: 700px) {
+  .hero {
+    background-position: 35% center;
+  }
   /*-------- BEST SELLERS --------*/
   .best_sellers_items {
     display: flex;

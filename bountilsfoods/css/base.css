@@ -127,7 +127,7 @@ div.socials img {
 /*-------- HERO --------*/
 .hero {
   align-items: center;
-  background-image: url(../images/hero_small.png);
+  background-image: url(../images/hero.webp);
   display: flex;
   flex-direction: column;
   justify-content: center;

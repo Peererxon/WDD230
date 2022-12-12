@@ -1,4 +1,8 @@
 @media screen and (min-width: 1200px) {
+  .hero {
+    background-position: 90% center;
+  }
+
   .home {
     margin: 0px 10px;
     display: grid;
