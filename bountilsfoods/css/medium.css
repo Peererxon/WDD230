@@ -46,4 +46,7 @@
     grid-template-columns: 1fr 1fr;
   }
   /*-------- END ABOUT US --------*/
+  .summary_photo {
+    width: 70%;
+  }
 }
