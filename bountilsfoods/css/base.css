@@ -439,4 +439,8 @@ h1 {
 #bf-map {
   width: 100%;
 }
+
+#history-text {
+  text-align: justify;
+}
 /*-------- END ABOUT US --------*/
