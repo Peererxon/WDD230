@@ -52,8 +52,15 @@ section h2 {
 
 #hamburger-menu {
   height: 24px;
+  width: 2rem;
+  border: 1px solid black;
+  color: black;
+  padding: 0 5px;
 }
 
+#hamburger-menu-close {
+  height: 24px;
+}
 .hero-text-container {
   align-items: center;
   display: flex;
@@ -76,11 +83,11 @@ section h2 {
   justify-content: space-between;
   padding: 2rem 1rem;
 }
-#hamburger {
+/* #hamburger {
   border: 1px solid black;
   color: black;
   padding: 0 5px;
-}
+} */
 
 #menu {
   display: flex;
