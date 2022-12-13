@@ -353,7 +353,7 @@ button.submit-button-form {
   background-color: var(--primary);
   border: none;
   border-radius: 10px;
-  color: white;
+  color: black;
   cursor: pointer;
   font-weight: bold;
   height: 40px;
@@ -438,9 +438,5 @@ h1 {
 }
 #bf-map {
   width: 100%;
-}
-
-#history-text {
-  text-align: justify;
 }
 /*-------- END ABOUT US --------*/
