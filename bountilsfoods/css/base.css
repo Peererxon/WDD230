@@ -145,11 +145,6 @@ div.socials img {
   height: 300px;
 }
 
-/* TODO: testing */
-img {
-  width: 10px;
-  height: 10px;
-}
 .call-to-action {
   background-color: var(--primary);
   color: #000;
